@@ -1,2 +1,2 @@
-# resource.language.zh_cn-coreelec-22-
+# resource.language.zh_cn-coreelec
 coreelec 22中文语言包，补充杜比相关设置汉化
