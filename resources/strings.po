@@ -2850,7 +2850,7 @@ msgstr "所有歌曲"
 
 msgctxt "#626"
 msgid "In progress TV shows"
-msgstr "正在观看的电视节目"
+msgstr "正在观看的电视剧"
 
 # empty strings from id 627 to 628
 msgctxt "#629"
@@ -13063,7 +13063,7 @@ msgstr "重载皮肤"
 # empty string with id 20184
 msgctxt "#20185"
 msgid "Use poster view styles for TV shows"
-msgstr "使用海报视图模式显示电视节目"
+msgstr "使用海报视图模式显示电视剧"
 
 msgctxt "#20186"
 msgid "Please wait"
@@ -13340,7 +13340,7 @@ msgstr "以 {0:s} 扫描音乐电视"
 
 msgctxt "#20319"
 msgid "Scanning TV shows using {0:s}"
-msgstr "以 {0:s} 扫描电视节目"
+msgstr "以 {0:s} 扫描电视剧"
 
 #: xbmc/music/infoscanner/MusicInfoScanner.cpp
 msgctxt "#20320"
@@ -13472,7 +13472,7 @@ msgstr "电影"
 #: system/settings/settings.xml
 msgctxt "#20343"
 msgid "TV shows"
-msgstr "电视节目"
+msgstr "电视剧"
 
 #. xbmc/settings/dialogs/GUIDialogContentSettings.cpp
 #: addons/skin.estuary/xml/DialogContentSettings.xml
@@ -13513,7 +13513,7 @@ msgstr "{0:s}（{1:s} 票）"
 #: xbmc/video/jobs/VideoLibraryRefreshingJob.cpp xbmc/video/ContextMenus.h
 msgctxt "#20351"
 msgid "TV show information"
-msgstr "电视节目信息"
+msgstr "电视剧信息"
 
 #: xbmc/video/jobs/VideoLibraryRefreshingJob.cpp xbmc/video/ContextMenus.h
 msgctxt "#20352"
@@ -13522,7 +13522,7 @@ msgstr "分集信息"
 
 msgctxt "#20353"
 msgid "Loading TV show details"
-msgstr "载入电视节目详细资料"
+msgstr "载入电视剧详细资料"
 
 msgctxt "#20354"
 msgid "Fetching episode guide"
@@ -13534,11 +13534,11 @@ msgstr "载入目录中分集的信息"
 
 msgctxt "#20356"
 msgid "Select TV show:"
-msgstr "选择电视节目："
+msgstr "选择电视剧："
 
 msgctxt "#20357"
 msgid "Enter the TV show name"
-msgstr "输入电视节目名"
+msgstr "输入电视剧名"
 
 #: xbmc/filesystem/VideoDatabaseDirectory/DirectoryNodeSeasons.cpp
 msgctxt "#20358"
@@ -13572,12 +13572,12 @@ msgstr "从资料库移除分集"
 
 msgctxt "#20363"
 msgid "Remove TV show from library"
-msgstr "从资料库移除电视节目"
+msgstr "从资料库移除电视剧"
 
 #: xbmc/playlists/SmartPlaylist.cpp
 msgctxt "#20364"
 msgid "TV show"
-msgstr "电视节目"
+msgstr "电视剧"
 
 msgctxt "#20365"
 msgid "Episode plot"
@@ -13641,7 +13641,7 @@ msgstr "原始片名"
 
 msgctxt "#20377"
 msgid "Refresh TV show information"
-msgstr "刷新电视节目信息"
+msgstr "刷新电视剧信息"
 
 msgctxt "#20378"
 msgid "Refresh information for all episodes?"
@@ -13650,7 +13650,7 @@ msgstr "刷新所有分集信息？"
 #. xbmc/settings/dialogs/GUIDialogContentSettings.cpp
 msgctxt "#20379"
 msgid "Selected folder contains a single TV show"
-msgstr "选定文件夹包含单个电视节目"
+msgstr "选定文件夹包含单个电视剧"
 
 msgctxt "#20380"
 msgid "Exclude selected folder from scans"
@@ -13672,11 +13672,11 @@ msgstr "选定文件夹包含单个视频"
 
 msgctxt "#20384"
 msgid "Link to TV show"
-msgstr "链接到电视节目"
+msgstr "链接到电视剧"
 
 msgctxt "#20385"
 msgid "Remove link to TV show"
-msgstr "移除到电视节目的链接"
+msgstr "移除到电视剧的链接"
 
 #: xbmc/filesystem/VideoDatabaseDirectory/DirectoryNodeOverview.cpp
 msgctxt "#20386"
@@ -13791,7 +13791,7 @@ msgstr "下载音乐电视信息"
 
 msgctxt "#20409"
 msgid "Downloading TV show information"
-msgstr "下载电视节目信息"
+msgstr "下载电视剧信息"
 
 msgctxt "#20410"
 msgid "Trailer"
@@ -13804,7 +13804,7 @@ msgstr "简捷查看"
 #: system/settings/settings.xml
 msgctxt "#20412"
 msgid "Flatten TV show seasons"
-msgstr "不显示电视节目季目录"
+msgstr "不显示电视剧季目录"
 
 msgctxt "#20413"
 msgid "Get fanart"
@@ -14101,7 +14101,7 @@ msgstr "包括只有单部电影的电影集"
 #: system/settings/settings.xml
 msgctxt "#20471"
 msgid "Show empty TV shows"
-msgstr "显示空电视节目"
+msgstr "显示空电视剧"
 
 #: system/settings/settings.xml
 msgctxt "#20472"
@@ -14503,7 +14503,7 @@ msgstr "默认电影信息提供者"
 #: system/settings/settings.xml
 msgctxt "#21414"
 msgid "Default provider for TV show information"
-msgstr "默认电视节目信息提供者"
+msgstr "默认电视剧信息提供者"
 
 #: system/settings/settings.xml
 msgctxt "#21415"
@@ -14513,7 +14513,7 @@ msgstr "默认音乐电视信息提供者"
 #: system/settings/settings.xml
 msgctxt "#21416"
 msgid "Select first unwatched TV show season / episode"
-msgstr "选择首个未观看电视节目季/集"
+msgstr "选择首个未观看电视剧季/集"
 
 #: system/settings/settings.xml
 msgctxt "#21417"
@@ -14762,7 +14762,7 @@ msgstr "屏幕顶部"
 #: system/settings/settings.xml
 msgctxt "#21466"
 msgid "When entering a TV show season or episode view automatically select the first unwatched season or episode.[CR][On first entry] The first unwatched item will be selected only when a view is entered for the first time.[CR][Always] The first unwatched item will be selected every time a view is entered."
-msgstr "进入电视节目季或集视图自动选择首个未观看季或集。[CR][首次进入] 首次进入一视图时首个未观看项目被选择。[CR][总是] 每次进入视图时首个未观看项目都被选择。"
+msgstr "进入电视剧季或集视图自动选择首个未观看季或集。[CR][首次进入] 首次进入一视图时首个未观看项目被选择。[CR][总是] 每次进入视图时首个未观看项目都被选择。"
 
 #. Filter (media data) from float value to float value
 #: xbmc/dialogs/GUIDialogMediaFilter.cpp
@@ -16109,13 +16109,13 @@ msgstr "字幕存储位置"
 #: system/settings/settings.xml
 msgctxt "#24116"
 msgid "Default TV show service"
-msgstr "默认电视节目服务"
+msgstr "默认电视剧服务"
 
 #. Description of setting with label #24116 "Default TV Service"
 #: system/settings/settings.xml
 msgctxt "#24117"
 msgid "Select the service that will be used as default to search for TV show subtitles."
-msgstr "选择用于搜索电视节目字幕的默认服务。"
+msgstr "选择用于搜索电视剧字幕的默认服务。"
 
 #: system/settings/settings.xml
 msgctxt "#24118"
@@ -19420,7 +19420,7 @@ msgstr "当添加媒体到资料库时从在线数据库下载演员缩略图。
 #: system/settings/settings.xml
 msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
-msgstr "选择什么情况下隐藏剧集的季结点。隐藏时，选择一个电视节目将直接跳到集视图。"
+msgstr "选择什么情况下隐藏剧集的季结点。隐藏时，选择一个电视剧将直接跳到集视图。"
 
 #. Description of setting with label #20458 "Group movies in sets"
 #: system/settings/settings.xml
@@ -19529,7 +19529,7 @@ msgstr "启用视频文件 VideoToolbox 硬件解码。"
 #: system/settings/settings.xml
 msgctxt "#36163"
 msgid "Show TV shows with no episodes when browsing the video library."
-msgstr "浏览视频资料库时显示无分集的电视节目。"
+msgstr "浏览视频资料库时显示无分集的电视剧。"
 
 #. Description of setting with label #170 "Adjust display refresh rate"
 #: system/settings/settings.xml
@@ -19741,7 +19741,7 @@ msgstr "选择默认电影信息来源。选项见插件管理。"
 #: system/settings/settings.xml
 msgctxt "#36199"
 msgid "Select the default TV show information source. See the add-ons manager for options."
-msgstr "选择默认电视节目信息来源。选项见插件管理。"
+msgstr "选择默认电视剧信息来源。选项见插件管理。"
 
 #: system/settings/settings.xml
 msgctxt "#36200"
@@ -19807,7 +19807,7 @@ msgstr "此类别包含 PVR 频道和频道组的设置。"
 #: system/settings/settings.xml
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
-msgstr "变更频道时显示节目信息，如当前电视节目。"
+msgstr "变更频道时显示节目信息，如当前电视剧。"
 
 #: system/settings/settings.xml
 msgctxt "#36213"
@@ -21930,12 +21930,12 @@ msgstr "电影"
 #: xbmc/media/MediaType.cpp
 msgctxt "#36902"
 msgid "TV show"
-msgstr "电视节目"
+msgstr "电视剧"
 
 #: xbmc/media/MediaType.cpp
 msgctxt "#36903"
 msgid "TV shows"
-msgstr "电视节目"
+msgstr "电视剧"
 
 #: xbmc/media/MediaType.cpp
 msgctxt "#36904"
@@ -23302,7 +23302,7 @@ msgstr "启动时执行"
 #: system/settings/settings.xml
 msgctxt "#39101"
 msgid "Play TV"
-msgstr "播放电视节目"
+msgstr "播放电视剧"
 
 #: system/settings/settings.xml
 msgctxt "#39102"
@@ -23551,7 +23551,7 @@ msgstr "剧集艺术图片类型白名单"
 #: system/settings/settings.xml
 msgctxt "#39146"
 msgid "Limit the TV show and season artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr "将本地或通过刮削器远程获取的电视节目和季艺术图片，限制在白名单中的艺术图片类型"
+msgstr "将本地或通过刮削器远程获取的电视剧和季艺术图片，限制在白名单中的艺术图片类型"
 
 #: system/settings/settings.xml
 msgctxt "#39147"
