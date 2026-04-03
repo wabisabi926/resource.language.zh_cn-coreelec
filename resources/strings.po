@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-12-20 15:15+0800\n"
+"PO-Revision-Date: 2026-03-28 11:18+0800\n"
 "Last-Translator: wabisabi926\n"
 "Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -1348,7 +1348,10 @@ msgctxt "#294"
 msgid "Create bookmark"
 msgstr "创建书签"
 
-# empty string with id 295
+msgctxt "#295"
+msgid "Low latency mode"
+msgstr "低延迟模式"
+
 msgctxt "#296"
 msgid "Clear bookmarks"
 msgstr "清除书签"
@@ -3532,7 +3535,7 @@ msgstr "资料库更新"
 
 # empty strings from id 800 to 801
 #. Label of progress bar which shows the available/total space of pvr backend
-#: xbmc/pvr/PVRGUIInfo.cpp
+#: xbmc/pvr/guilib/guiinfo/PVRGUIInfo.cpp
 msgctxt "#802"
 msgid "{0:s} of {1:s} available"
 msgstr "{1:s} 中 {0:s} 可用"
@@ -3618,7 +3621,7 @@ msgstr "尾部填充时间"
 #: xbmc/pvr/timers/PVRTimerType.cpp
 msgctxt "#815"
 msgid "Record all episodes"
-msgstr "录制所有分集"
+msgstr "录制所有剧集"
 
 #. Value of prevent duplicate episodes list control in PVR timer settings dialog
 #: xbmc/pvr/timers/PVRTimerType.cpp
@@ -5257,8 +5260,7 @@ msgid "File browser"
 msgstr "文件浏览器"
 
 #. Audio Channel count
-#: xbmc/cores/VideoPlayer/DVDInputStreams/DVDInputStreamNavigator.cpp
-#: xbmc/video/dialogs/GUIDialogAudioSettings.cpp
+#: xbmc/utils/StreamUtils.cpp xbmc/video/dialogs/GUIDialogAudioSettings.cpp
 msgctxt "#10127"
 msgid "channels"
 msgstr "频道"
@@ -5730,7 +5732,13 @@ msgctxt "#12022"
 msgid "Resume from {0:s}"
 msgstr "从 {0:s} 继续播放"
 
-# empty strings from id 12023 to 12307
+#. Label for resuming playback from a certain part
+#: xbmc/video/VideoUtils.cpp
+msgctxt "#12023"
+msgid "Resume from"
+msgstr "继续播放"
+
+# empty strings from id 12024 to 12307
 #. Label of the show password button in the keyboard dialog
 #: xbmc/dialogs/GUIDialogKeyboardGeneric.cpp
 msgctxt "#12308"
@@ -6412,18 +6420,7 @@ msgctxt "#13141"
 msgid "If you proceed, you might not be able to control this application any longer. Are you sure you want to stop the event server?"
 msgstr "如果继续，你可能将无法控制此应用。确定要停止事件服务器吗？"
 
-# empty strings from id 13142 to 13143
-#: xbmc/osx/XBMCHelper.cpp
-msgctxt "#13144"
-msgid "Change Apple Remote mode?"
-msgstr "改变苹果遥控器的模式？"
-
-#: xbmc/osx/XBMCHelper.cpp
-msgctxt "#13145"
-msgid "If you are currently using the Apple Remote to control this application, changing this setting might affect your ability to continue controlling it. Do you want to proceed?"
-msgstr "如果你正使用苹果遥控器控制此应用，改变此设置会影响你对它的持续控制。确定要继续吗？"
-
-# empty strings from id 13146 to 13158
+# empty strings from id 13142 to 13158
 #: xbmc/windows/GUIWindowSystemInfo.cpp
 msgctxt "#13159"
 msgid "Subnet mask"
@@ -7623,60 +7620,13 @@ msgctxt "#13557"
 msgid "Skip delay"
 msgstr "跳过延迟"
 
-# empty strings from id 13558 to 13599
-#: system/settings/darwin.xml
-msgctxt "#13600"
-msgid "Apple Remote"
-msgstr "苹果遥控器"
-
+# empty strings from id 13558 to 13600
 #: system/settings/darwin_tvos.xml
 msgctxt "#13601"
 msgid "Apple TV"
 msgstr "Apple TV"
 
-#: system/settings/darwin.xml
-msgctxt "#13602"
-msgid "Allow start of Kodi using the remote"
-msgstr "允许用遥控器启动 Kodi"
-
-#: system/settings/darwin.xml
-msgctxt "#13603"
-msgid "Sequence delay time"
-msgstr "序列延时"
-
-# empty strings from id 13604 to 13609
-#: system/settings/darwin.xml
-msgctxt "#13610"
-msgid "Disabled"
-msgstr "禁用"
-
-#: system/settings/darwin.xml
-msgctxt "#13611"
-msgid "Standard"
-msgstr "标准"
-
-#: system/settings/darwin.xml
-msgctxt "#13612"
-msgid "Universal remote"
-msgstr "通用遥控器"
-
-#: system/settings/darwin.xml
-msgctxt "#13613"
-msgid "Harmony remote"
-msgstr "Harmony 遥控器"
-
-# empty strings from id 13614 to 13619
-#: xbmc/osx/XBMCHelper.cpp
-msgctxt "#13620"
-msgid "Apple Remote error"
-msgstr "苹果遥控器错误"
-
-#: xbmc/osx/XBMCHelper.cpp
-msgctxt "#13621"
-msgid "Apple Remote support couldn't be enabled."
-msgstr "苹果遥控器支持无法激活。"
-
-# empty strings from id 13622 to 13999
+# empty strings from id 13602 to 13999
 msgctxt "#14000"
 msgid "Stack"
 msgstr "视频堆叠"
@@ -13530,7 +13480,7 @@ msgstr "获取分集介绍"
 
 msgctxt "#20355"
 msgid "Loading information for episodes in directory"
-msgstr "载入目录中分集的信息"
+msgstr "载入目录中剧集的信息"
 
 msgctxt "#20356"
 msgid "Select TV show:"
@@ -13645,7 +13595,7 @@ msgstr "刷新电视剧信息"
 
 msgctxt "#20378"
 msgid "Refresh information for all episodes?"
-msgstr "刷新所有分集信息？"
+msgstr "刷新所有剧集信息？"
 
 #. xbmc/settings/dialogs/GUIDialogContentSettings.cpp
 msgctxt "#20379"
@@ -14132,7 +14082,13 @@ msgctxt "#20476"
 msgid "Has video extras"
 msgstr "有视频附加功能"
 
-# empty strings from id 20477 to 21329
+#. When you create a new profile ask to user if wants to create it in a custom directory
+#: xbmc/profiles/dialogs/GUIDialogProfileSettings.cpp
+msgctxt "#20477"
+msgid "Do you want to create the new profile in a custom directory?"
+msgstr "是否要在自定义目录中创建新用户配置文件？"
+
+# empty strings from id 20478 to 21329
 # up to 21329 is reserved for the video db !! !
 #: system/settings/settings.xml
 msgctxt "#21330"
@@ -14513,7 +14469,7 @@ msgstr "默认音乐电视信息提供者"
 #: system/settings/settings.xml
 msgctxt "#21416"
 msgid "Select first unwatched TV show season / episode"
-msgstr "选择首个未观看电视剧季/集"
+msgstr "选择首个未观看电视剧季/分集"
 
 #: system/settings/settings.xml
 msgctxt "#21417"
@@ -14631,7 +14587,7 @@ msgstr "观看次数"
 
 msgctxt "#21442"
 msgid "Episode title"
-msgstr "集标题"
+msgstr "分集标题"
 
 #: xbmc/playlists/SmartPlaylist.cpp
 msgctxt "#21443"
@@ -14762,7 +14718,7 @@ msgstr "屏幕顶部"
 #: system/settings/settings.xml
 msgctxt "#21466"
 msgid "When entering a TV show season or episode view automatically select the first unwatched season or episode.[CR][On first entry] The first unwatched item will be selected only when a view is entered for the first time.[CR][Always] The first unwatched item will be selected every time a view is entered."
-msgstr "进入电视剧季或集视图自动选择首个未观看季或集。[CR][首次进入] 首次进入一视图时首个未观看项目被选择。[CR][总是] 每次进入视图时首个未观看项目都被选择。"
+msgstr "进入电视剧季或剧集视图自动选择首个未观看季或分集。[CR][首次进入] 首次进入一视图时首个未观看项目被选择。[CR][总是] 每次进入视图时首个未观看项目都被选择。"
 
 #. Filter (media data) from float value to float value
 #: xbmc/dialogs/GUIDialogMediaFilter.cpp
@@ -16611,7 +16567,7 @@ msgstr "未找到有效的电影播放列表。"
 #: xbmc/video/dialogs/GUIDialogSimpleMenu.cpp
 msgctxt "#25017"
 msgid "No valid episode playlist has been found."
-msgstr "未找到有效的剧集播放列表。"
+msgstr "未找到有效的分集播放列表。"
 
 # empty strings from id 25018 to 29800
 #: unused
@@ -19101,13 +19057,13 @@ msgstr "在开始时"
 #: system/peripherals.xml
 msgctxt "#36051"
 msgid "Recording Device"
-msgstr "录音设备"
+msgstr "录制设备"
 
 #. Item list value of setting with label #36013 "CEC client device mode"
 #: system/peripherals.xml
 msgctxt "#36052"
 msgid "Playback Device"
-msgstr "回放设备"
+msgstr "播放设备"
 
 #. Item list value of setting with label #36013 "CEC client device mode"
 #: system/peripherals.xml
@@ -19420,7 +19376,7 @@ msgstr "当添加媒体到资料库时从在线数据库下载演员缩略图。
 #: system/settings/settings.xml
 msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
-msgstr "选择什么情况下隐藏剧集的季结点。隐藏时，选择一个电视剧将直接跳到集视图。"
+msgstr "选择什么情况下隐藏电视剧的季结点。隐藏时，选择一个电视剧将直接跳到剧集视图。"
 
 #. Description of setting with label #20458 "Group movies in sets"
 #: system/settings/settings.xml
@@ -19529,7 +19485,7 @@ msgstr "启用视频文件 VideoToolbox 硬件解码。"
 #: system/settings/settings.xml
 msgctxt "#36163"
 msgid "Show TV shows with no episodes when browsing the video library."
-msgstr "浏览视频资料库时显示无分集的电视剧。"
+msgstr "浏览视频资料库时显示无剧集的电视剧。"
 
 #. Description of setting with label #170 "Adjust display refresh rate"
 #: system/settings/settings.xml
@@ -19612,8 +19568,8 @@ msgstr "此功能区包含视频文件列表处理相关设置。"
 #. Description of setting with label #22079 "Default select action"
 #: system/settings/settings.xml
 msgctxt "#36177"
-msgid "Toggle between [Choose], [Play] (default), [Resume], [Show information] and [Queue item].[CR][Choose] will open a context menu to select an item, e.g. show information.[CR][Play] will automatically play videos from the beginning or if a resume point is present ask whether to play from beginning or to resume.[CR][Resume] Will automatically resume videos from the last position that you were viewing them.[CR][Show information] will open the video's information dialog.[CR][Queue item] will append the video to the video playlist."
-msgstr "在[选择]、[播放]（默认）、[恢复]、[显示信息]和[队列项目]之间切换。[CR][选择]将打开一个上下文菜单来选择一个项目，例如显示信息。[CR][播放]将自动从头开始播放视频，如果有恢复点，则询问是从头开始播放还是恢复。[CR][Resume]（恢复）将自动从您上次观看视频的位置恢复视频。[CR][Show information]（显示信息）将打开视频的信息对话框。[CR][Queue item]（队列项目）将把视频添加到视频播放列表中。"
+msgid "Toggle between [Choose], [Play] (default), [Show information] and [Queue item].[CR][Choose] will open a context menu to select an item, e.g. show information.[CR][Play] will play videos as defined by the setting 'Default play action'.[CR][Show information] will open the video's information dialog.[CR][Queue item] will append the video to the video playlist."
+msgstr "在[选择]、[播放]（默认）、[显示信息]和[加入队列]之间切换。[CR][选择]将打开上下文菜单以选择项目（如显示信息）。[CR][播放]将按照 \"默认播放操作 \"设置来播放视频。[CR][显示信息]将打开视频的信息对话框。[CR][队列项目]将把视频添加到视频播放列表中。"
 
 #. Description of setting with label #20433 "Extract thumbnails and video information"
 #: system/settings/settings.xml
@@ -19766,8 +19722,8 @@ msgstr "启用“个人视频录像机”（PVR）功能。需要至少安装有
 #. Description of setting with label #22076 "Default play action"
 #: system/settings/settings.xml
 msgctxt "#36204"
-msgid "Toggle between [Ask if resumable] (default) and [Resume].[CR][Ask if resumable] will ask whether to play from beginning or to resume (if a resume point is present).[CR][Resume] will automatically resume videos from the last position that you were viewing them.[CR]If no resume point is set, playback will automatically start from the beginning."
-msgstr "在[询问是否可恢复]（默认）和[恢复]之间切换。[CR][询问是否可恢复]将询问是从头开始播放还是恢复（如果存在恢复点）。[CR][恢复]将自动从您观看视频的最后一个位置恢复。"
+msgid "Toggle between [Ask if resumable] (default), [Resume] and [Play from beginning].[CR][Ask if resumable] will ask whether to play from beginning or to resume (if a resume point is present).[CR][Resume] will automatically resume playback from the last position that you were viewing them. If no resume point is set, playback will automatically start from the beginning.[CR][Play from beginning] will automatically start playback from beginning, ignoring any existing resume positions."
+msgstr "在[询问是否续播]（默认）、[继续播放]与[从头播放]之间切换。[CR]若存在续播点，[询问是否续播]将弹出选择框，确认是从头播放还是继续播放。[CR][继续播放]将自动从上次观看的位置恢复播放；若未设置续播点，则自动从头开始播放。[CR][从头播放]将自动从头启动播放，忽略所有已有的续播点。\""
 
 #: system/settings/settings.xml
 msgctxt "#36205"
@@ -20970,23 +20926,16 @@ msgctxt "#36415"
 msgid "No info available yet."
 msgstr "无可用信息。"
 
-#. Description of setting with label #13600 "Apple remote"
-#: system/settings/settings.xml
-msgctxt "#36416"
-msgid "Specify the type of remote used."
-msgstr "指定使用的遥控器类型。"
-
-#. Description of setting with label #13602 "Allow start of Kodi with remote"
-#: system/settings/settings.xml
-msgctxt "#36417"
-msgid "Always run a Kodi helper so that the remote can be used to start Kodi."
-msgstr "始终运行 Kodi helper 使遥控器可用来启动 Kodi。"
-
-#. Description of setting with label #13603 "Sequence delay time"
+# empty strings from id 36416 to 36417
+#. Description of setting with label #295 "Low latency mode"
 #: system/settings/settings.xml
 msgctxt "#36418"
-msgid "Specify the delay between button sequences on a universal remote."
-msgstr "指定通用遥控器连续按键间隔。"
+msgid ""
+"Reduces audio processing latency. Improves playback start, unpause and seek (the audio returns sooner).\n"
+"You can disable this setting if you experience audio issues."
+msgstr ""
+"降低音频处理延迟，优化播放启动、暂停恢复及快进快退的响应速度（音频恢复更迅速）。\n"
+"若出现音频异常，可关闭此项设置。"
 
 #. Description of setting with label #21417 "Settings"
 #: system/settings/settings.xml
@@ -21142,18 +21091,7 @@ msgctxt "#36445"
 msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
 msgstr "选择此选项可允许使用双倍刷新率（在59.94 Hz显示器上播放29.97 FPS视频或在60 Hz显示器上播放30 FPS视频）。如果您的显示器没有29.97 Hz或30 Hz模式，则可能要使用此选项。"
 
-msgctxt "#36457"
-msgid "Include LFE in stereo downmix"
-msgstr "在立体声下混中包含低频效果声道（LFE）"
-
-msgctxt "#36458"
-msgid "Include low frequency effects channel in stereo downmix. 100% - Full LFE volume. 10% to 90% - reduced LFE volume. 0% - LFE excluded from stereo downmix. Note: To avoid damaging your speakers only enable LFE downmix if your speakers can handle very low bass frequencies."
-msgstr "在立体声下混中包含低频效果声道。100% - 低频效果声道全音量。10% 至 90% - 低频效果声道音量降低。0% - 低频效果声道不包含在立体声下混中。注意：为避免损坏扬声器，仅当扬声器能够处理极低的低音频率时，才启用低频效果声道下混。"
-
-msgctxt "#36459"
-msgid "{0} %"
-msgstr "{0} %"
-
+# empty strings from id 36446 to 36459
 #. Description of settings with label #14112 "Enable event logging"
 #: system/settings/settings.xml
 msgctxt "#36460"
@@ -22043,19 +21981,7 @@ msgctxt "#37002"
 msgid "(Director's comments 2)"
 msgstr "（导演点评2）"
 
-#. DVD short name for 1.0 channel layout
-#: xbmc/cores/VideoPlayer/DVDInputStreams/DVDInputStreamNavigator.cpp
-msgctxt "#37003"
-msgid "mono"
-msgstr "单声道"
-
-#. DVD short name for 2.0 channel layout
-#: xbmc/cores/VideoPlayer/DVDInputStreams/DVDInputStreamNavigator.cpp
-msgctxt "#37004"
-msgid "stereo"
-msgstr "立体声"
-
-# empty strings from id 37005 to 37013
+# empty strings from id 37003 to 37013
 #: xbmc/GUIInfoManager.cpp
 msgctxt "#37014"
 msgid "Last used profile"
@@ -23302,7 +23228,7 @@ msgstr "启动时执行"
 #: system/settings/settings.xml
 msgctxt "#39101"
 msgid "Play TV"
-msgstr "播放电视剧"
+msgstr "播放电视节目"
 
 #: system/settings/settings.xml
 msgctxt "#39102"
@@ -23445,7 +23371,12 @@ msgctxt "#39125"
 msgid "Enable tag reading in file view"
 msgstr "在文件视图中启用标签读取"
 
-# empty string with id 39126
+#. Label for component level debug logging setting
+#: xbmc/utils/log.cpp
+msgctxt "#39126"
+msgid "Verbose logging for the [B]Bluray[/B] component"
+msgstr "[B]蓝光[/B]组件的详细日志记录"
+
 #: system/settings/settings.xml
 msgctxt "#39127"
 msgid "Use all local image files as artwork"
@@ -23545,7 +23476,7 @@ msgstr "将本地或通过刮削器远程获取的电影艺术图片，限制在
 #: system/settings/settings.xml
 msgctxt "#39145"
 msgid "TV show art types whitelist"
-msgstr "剧集艺术图片类型白名单"
+msgstr "电视剧艺术图片类型白名单"
 
 #. Description of setting with label #39152 "TV show art types whitelist"
 #: system/settings/settings.xml
@@ -23556,13 +23487,13 @@ msgstr "将本地或通过刮削器远程获取的电视剧和季艺术图片，
 #: system/settings/settings.xml
 msgctxt "#39147"
 msgid "Episode art types whitelist"
-msgstr "集艺术图片类型白名单"
+msgstr "分集艺术图片类型白名单"
 
 #. Description of setting with label #39154 "Episode art types whitelist"
 #: system/settings/settings.xml
 msgctxt "#39148"
 msgid "Limit the episode artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr "将本地或通过刮削器远程获取的集艺术图片，限制在白名单中的艺术图片类型"
+msgstr "将本地或通过刮削器远程获取的分集艺术图片，限制在白名单中的艺术图片类型"
 
 #: system/settings/settings.xml
 msgctxt "#39149"
@@ -23824,8 +23755,8 @@ msgstr "播放音乐时，不会激活屏幕保护程序"
 #. Help text of setting "Allow use DXVA Video Super Resolution" with label #13417
 #: system/settings/settings.xml
 msgctxt "#39194"
-msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when the video source is 1920x1080 or less and the source resolution is lower than the display resolution.[CR]Only available on specific hardware: NVIDIA RTX 20xx, 30xx, 40xx and above, Intel Arc A770, A750."
-msgstr "使用 NVIDIA \"RTX 视频超级分辨率 \"或 \"Intel 视频超级分辨率 \"启用高级 DXVA 升频器。[CR]当视频源为 1920x1080 或更低，且源分辨率低于显示分辨率时使用：NVIDIA RTX 20xx、30xx、40xx 及以上，Intel Arc A770、A750。"
+msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when the video source is 2560x1440 or less and the source resolution is lower than the display resolution.[CR]Only available on specific hardware: NVIDIA RTX and Intel Arc."
+msgstr "启用基于 NVIDIA「RTX 视频超分」或 Intel「视频超分」技术的高级 DXVA 视频缩放器。[CR]适用于视频源分辨率≤2560×1440 且低于显示分辨率的场景。[CR]仅支持特定硬件：NVIDIA RTX 系列显卡及 Intel Arc 系列显卡。"
 
 #. Description of setting with label #13418 "Use high precision processing"
 #: system/settings/settings.xml
@@ -23909,7 +23840,7 @@ msgstr "使用 Starfish 解码器"
 #: system/settings/linux.xml
 msgctxt "#39208"
 msgid "Starfish is the hardware video decoder for LG's webOS. Disable it for troubleshooting or testing."
-msgstr "Starfish 是 LG webOS 的硬件视频解码器。禁用它以进行故障排除或测试。"
+msgstr "Starfish 是适用于 LG webOS 系统的硬件视频解码器。若需进行故障排查或测试，请将其禁用。"
 
 #. Title of Dolby Vision level 5 metadata zero override setting
 #: system/settings/settings.xml
@@ -24101,6 +24032,7 @@ msgid "The selected video is the \"{0:s}\" extra of the movie \"{1:s}\". Would y
 msgstr "所选视频是电影\"{1:s}\"的\"{0:s}\"号外。您想将该额外内容移到这部影片中吗？"
 
 #. Browse the computer files for the file to be added as version
+#: xbmc/video/dialogs/GUIDialogVideoManagerVersions.cpp
 msgctxt "#40028"
 msgid "Browse files"
 msgstr "浏览文件"
@@ -24214,7 +24146,7 @@ msgstr "为 \"extras \"文件夹中的视频额外内容选择扫描器操作。
 #: addons/skin.estuary/xml/Variables.xml
 msgctxt "#40209"
 msgid "Assets"
-msgstr "资产"
+msgstr "资源文件"
 
 #. Button label for video versions
 #: addons/skin.estuary/xml/DialogVideoInfo.xml
