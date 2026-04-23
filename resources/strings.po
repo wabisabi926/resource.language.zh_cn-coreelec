@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-03-28 11:18+0800\n"
-"Last-Translator: wabisabi926\n"
+"PO-Revision-Date: 2026-04-16 05:19+0000\n"
+"Last-Translator: wabisabi926 <wabisabi926@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -1198,7 +1198,7 @@ msgstr "允许通过 HTTP 远程控制"
 #: addons/skin.estuary/xml/Variables.xml
 msgctxt "#264"
 msgid "Record"
-msgstr "录音"
+msgstr "录制"
 
 #: xbmc/music/windows/GUIWindowMusicBase.cpp
 msgctxt "#265"
@@ -1641,7 +1641,7 @@ msgstr "黑屏"
 
 msgctxt "#354"
 msgid "Matrix trails"
-msgstr "骇客任务"
+msgstr "矩阵轨迹"
 
 #. Label of a setting to configure the idle time until the screensaver kicks in
 #: system/settings/settings.xml
@@ -2169,7 +2169,7 @@ msgstr "OSD 位置"
 
 msgctxt "#470"
 msgid "Credits"
-msgstr "开发者"
+msgstr "制作人员"
 
 msgctxt "#471"
 msgid "Input layout"
@@ -2589,7 +2589,7 @@ msgstr "年份"
 #: addons/skin.estuary/xml/DialogFullScreenInfo.xml
 msgctxt "#563"
 msgid "Rating"
-msgstr "评价"
+msgstr "评分"
 
 #: xbmc/dialogs/GUIDialogMediaFilter.cpp xbmc/playlists/SmartPlaylist.cpp
 msgctxt "#564"
@@ -2654,7 +2654,7 @@ msgstr "路径"
 #: xbmc/dialogs/GUIDialogSmartPlaylistRule.cpp xbmc/playlists/SmartPlaylist.cpp
 msgctxt "#574"
 msgid "Country"
-msgstr "国家"
+msgstr "国家/地区"
 
 #: xbmc/dialogs/GUIDialogMediaFilter.cpp xbmc/playlists/SmartPlaylist.cpp
 msgctxt "#575"
@@ -2713,13 +2713,13 @@ msgstr "筛选"
 
 msgctxt "#588"
 msgid "Cancel party mode"
-msgstr "取消舞会模式"
+msgstr "取消派对模式"
 
 #: addons/skin.estuary/xml/MyVideoNav.xml
 #: addons/skin.estuary/xml/MyMusicNav.xml
 msgctxt "#589"
 msgid "Party mode"
-msgstr "舞会模式"
+msgstr "派对模式"
 
 #: xbmc/playlists/SmartPlaylist.cpp addons/skin.estuary/xml/PlayerControls.xml
 #: addons/skin.estuary/xml/MusicOSD.xml
@@ -2796,7 +2796,7 @@ msgstr "储存到："
 
 msgctxt "#608"
 msgid "Couldn't rip CD or track because CDDARipPath is not set."
-msgstr "无法抓取 CD 或音轨，因 CDDA 抓取目录未设置。"
+msgstr "无法抓取 CD 或音轨，因 CDDA 抓取路径未设置。"
 
 # empty string with id 609
 msgctxt "#610"
@@ -3051,8 +3051,8 @@ msgstr "启用特定组件日志"
 
 #: system/settings/settings.xml
 msgctxt "#667"
-msgid "Enable Dolby Digital (AC3) transcoding"
-msgstr "启用杜比数字（AC3）编码转换"
+msgid "Enable Dolby Digital transcoding"
+msgstr "启用杜比数字转码"
 
 #: system/settings/settings.xml
 msgctxt "#668"
@@ -3275,7 +3275,7 @@ msgstr "保存 & 重启"
 
 msgctxt "#724"
 msgid "Invalid address specified. Value must be AAA.BBB.CCC.DDD"
-msgstr "无效地址。正确格式为：AAA.BBB.CCC.DDD"
+msgstr "指定的地址无效。值必须为 AAA.BBB.CCC.DDD 格式"
 
 msgctxt "#725"
 msgid "with numbers between 0 and 255."
@@ -3596,7 +3596,7 @@ msgstr "随时启动"
 #: xbmc/pvr/timers/PVRTimerType.cpp
 msgctxt "#811"
 msgid "Recording group"
-msgstr "录像组"
+msgstr "录制组"
 
 #. Label for setting TV->Recordings->Prevent duplicate episodes
 #. Label of prevent duplicate episodes list control (if user does not want to record the same episode multiple times) in PVR timer settings dialog
@@ -3640,13 +3640,13 @@ msgstr "随时终止"
 #: xbmc/pvr/dialogs/GUIDialogPVRTimerSettings.cpp
 msgctxt "#818"
 msgid "Max recordings"
-msgstr "最多录像"
+msgstr "最大录制数"
 
 #. Representation of a one-time timer which has been scheduled by a timer rule.
 #: xbmc/pvr/timers/PVRTimers.cpp
 msgctxt "#819"
 msgid "One time (Scheduled by timer rule)"
-msgstr "单次（由定时器规则计划）"
+msgstr "单次（由计时器规则计划）"
 
 #. Representation of a one-time timer.
 #: xbmc/pvr/timers/PVRTimerType.cpp
@@ -3664,13 +3664,13 @@ msgstr "一次（基于指南）"
 #: xbmc/pvr/timers/PVRTimerType.cpp
 msgctxt "#822"
 msgid "Timer rule"
-msgstr "定时器规则"
+msgstr "计时器规则"
 
 #. Representation of an epg-based timer rule.
 #: xbmc/pvr/timers/PVRTimerType.cpp
 msgctxt "#823"
 msgid "Timer rule (guide-based)"
-msgstr "定时器规则（基于指南）"
+msgstr "计时器规则（基于指南）"
 
 #. Complete prefixed representation of a reminder timer type.
 #: xbmc/pvr/timers/PVRTimerType.cpp
@@ -3682,7 +3682,7 @@ msgstr "提醒：{0:s}"
 #: xbmc/pvr/timers/PVRTimerType.cpp
 msgctxt "#825"
 msgid "Recording: {0:s}"
-msgstr "录像：{0:s}"
+msgstr "录制：{0:s}"
 
 #. Label for buttons to add a PVR reminder timer
 #: addons/skin.estuary/xml/DialogPVRInfo.xml xbmc/pvr/PVRContextMenus.cpp
@@ -3701,7 +3701,7 @@ msgstr "删除提醒"
 #: xbmc/pvr/timers/PVRTimerInfoTag.cpp
 msgctxt "#828"
 msgid "Timer rule deleted"
-msgstr "定时器规则已删除"
+msgstr "计时器规则已删除"
 
 #. Label for a context menu entry to view a read-only reminder timer
 #: xbmc/pvr/PVRContextMenus.cpp
@@ -3773,7 +3773,7 @@ msgstr "直播"
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
 msgctxt "#840"
 msgid "Do you only want to delete this timer or also the timer rule that has scheduled it?"
-msgstr "仅删除此定时器或同时删除相关的定时器规则？"
+msgstr "仅删除此计时器或同时删除相关的计时器规则？"
 
 #. Label for No button in a dialog when a user wants to delete a timer that was scheduled by a timer rule
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
@@ -3803,7 +3803,7 @@ msgstr "关闭"
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
 msgctxt "#845"
 msgid "Are you sure you want to delete this timer rule and all timers it has scheduled?"
-msgstr "确定删除此定时器规则及其预约的所有定时器吗？"
+msgstr "确定删除此计时器规则及其预约的所有计时器吗？"
 
 #. Message in a dialog when a user wants to delete a timer
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
@@ -3815,13 +3815,13 @@ msgstr "确定删除此定时器吗？"
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
 msgctxt "#847"
 msgid "Confirm stop recording"
-msgstr "确定停止录像"
+msgstr "确定停止录制"
 
 #. Message in a dialog when a user wants to stop an active recording
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
 msgctxt "#848"
 msgid "Are you sure you want to stop this recording?"
-msgstr "确定停止此录像吗？"
+msgstr "确定停止此录制吗？"
 
 #. Label for a finale of a TV show
 #: addons/skin.estuary/xml/DialogPVRInfo.xml
@@ -3900,7 +3900,7 @@ msgstr "配置观看后是否应删除录制内容。"
 #: system/settings/settings.xml
 msgctxt "#862"
 msgid "No"
-msgstr "不"
+msgstr "否"
 
 #. Value for setting 'Delete after watching'. Confirm delete.
 #: system/settings/settings.xml
@@ -4042,7 +4042,7 @@ msgstr "输入路径或浏览媒体位置。"
 #: addons/skin.estuary/xml/DialogMediaSource.xml
 msgctxt "#1022"
 msgid "Enter a name for this media source."
-msgstr "为此媒体源命名。"
+msgstr "输入此媒体源的名称。"
 
 #: xbmc/dialogs/GUIDialogFileBrowser.cpp
 msgctxt "#1023"
@@ -4973,7 +4973,7 @@ msgstr "设置 - 服务"
 #: xbmc/addons/gui/GUIDialogAddonSettings.cpp
 msgctxt "#10019"
 msgid "Do you want to remove the add-on configuration \"{0:s}\"?"
-msgstr "是否要删除附加配置“{0:s}”？"
+msgstr "是否要删除插件配置“{0:s}”？"
 
 #. Item label used in add-on setup selection dialog
 #: xbmc/addons/gui/GUIDialogAddonSettings.cpp
@@ -5484,7 +5484,7 @@ msgstr "PVR 指南信息"
 
 msgctxt "#10601"
 msgid "PVR recording info"
-msgstr "PVR 录像信息"
+msgstr "PVR 录制信息"
 
 msgctxt "#10602"
 msgid "PVR timer setting"
@@ -5524,7 +5524,7 @@ msgstr "PVR 电台 RDS 信息"
 
 msgctxt "#10611"
 msgid "PVR recording setting"
-msgstr "PVR 录像设置"
+msgstr "PVR 录制设置"
 
 # empty strings from id 10612 to 10699
 msgctxt "#10700"
@@ -5736,7 +5736,7 @@ msgstr "从 {0:s} 继续播放"
 #: xbmc/video/VideoUtils.cpp
 msgctxt "#12023"
 msgid "Resume from"
-msgstr "继续播放"
+msgstr "从...继续"
 
 # empty strings from id 12024 to 12307
 #. Label of the show password button in the keyboard dialog
@@ -6485,7 +6485,7 @@ msgstr "删除用户配置 '{0:s}'？"
 #: xbmc/profiles/dialogs/GUIDialogProfileSettings.cpp
 msgctxt "#13202"
 msgid "Reload profile '{0:s}'?"
-msgstr "重新加载配置文件'{0:s}'?"
+msgstr "是否重新加载配置文件 “{0:s}”？"
 
 # empty string with id 13203
 #. used by several skins
@@ -6876,6 +6876,7 @@ msgctxt "#13348"
 msgid "Search IMDb..."
 msgstr "搜索网络电影资料库..."
 
+#. Label for context menu item entries for scanning new items to the video library, e.g. new episodes of a TV show.
 msgctxt "#13349"
 msgid "Scan for new content"
 msgstr "扫描新的内容"
@@ -7099,7 +7100,7 @@ msgstr "{0:s} 预置"
 
 msgctxt "#13408"
 msgid "(IMDb user rating)"
-msgstr "（IMDb 用户评价）"
+msgstr "（IMDb 用户评分）"
 
 #: xbmc/playlists/SmartPlaylist.cpp
 msgctxt "#13409"
@@ -7493,7 +7494,7 @@ msgstr "极高（慢）"
 
 msgctxt "#13510"
 msgid "Sync playback to display"
-msgstr "同步回放显示"
+msgstr "同步播放与显示"
 
 #: addons/skin.estuary/xml/DialogVideoManager.xml
 #: xbmc/music/dialogs/GUIDialogSongInfo.cpp
@@ -7539,8 +7540,8 @@ msgstr "音高修正阈值"
 
 #: system/settings/settings.xml
 msgctxt "#13518"
-msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
-msgstr "当速度变化超过该阈值，将使用音高修正滤波，以避免视频加速引起的噪音"
+msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmunk voices\" that normally result from speeding up a video"
+msgstr "当速度变化超过该阈值时，将应用音调校正滤波器。这可以避免视频加速时通常会产生的 \"花栗鼠声音\""
 
 #: xbmc/video/dialogs/GUIDialogVideoInfo.cpp
 msgctxt "#13519"
@@ -7550,7 +7551,7 @@ msgstr "嵌入的艺术图片"
 #: xbmc/video/dialogs/GUIDialogVideoInfo.cpp
 msgctxt "#13520"
 msgid "Embedded fanart"
-msgstr "嵌入的同人画"
+msgstr "内嵌背景图"
 
 #. Heading for selection of a type of art e.g. "thumb", "poster", "fanart" etc.
 #: xbmc/music/MusicUtils.cpp
@@ -8870,7 +8871,7 @@ msgstr "缩略图视图隐藏文件名"
 
 msgctxt "#15216"
 msgid "Play in party mode"
-msgstr "以舞会模式播放"
+msgstr "以派对模式播放"
 
 #. Label for actions associated with favourites
 #: addons/skin.estuary/xml/Variables.xml
@@ -9113,7 +9114,7 @@ msgstr "更多相关信息见日志。"
 
 msgctxt "#16030"
 msgid "Party mode aborted."
-msgstr "舞会模式已退出。"
+msgstr "派对模式已退出。"
 
 msgctxt "#16031"
 msgid "No matching songs in the library."
@@ -9136,7 +9137,7 @@ msgstr "无法从数据库获取歌曲。"
 #: xbmc/dialogs/GUIDialogSmartPlaylistEditor.cpp
 msgctxt "#16035"
 msgid "Party mode playlist"
-msgstr "舞会模式播放列表"
+msgstr "派对模式播放列表"
 
 #: xbmc/video/dialogs/GUIDialogVideoSettings.cpp
 msgctxt "#16036"
@@ -9573,7 +9574,7 @@ msgstr "PVR 后端 {0:d} - {1:s}"
 #: xbmc/pvr/guilib/PVRGUIActionsDatabase.cpp
 msgctxt "#19017"
 msgid "Recordings"
-msgstr "录像"
+msgstr "录制"
 
 #. Name of a setting, asking to enter the path to a folder that contains icons for TV channels
 #: system/settings/settings.xml
@@ -9635,7 +9636,7 @@ msgstr "电台频道"
 #: xbmc/windows/GUIWindowSystemInfo.cpp
 msgctxt "#19025"
 msgid "Upcoming recordings"
-msgstr "即将完成录像"
+msgstr "即将完成录制"
 
 #. label for "add timer..." list item used in pvr timers / timer rules window
 #: xbmc/pvr/timers/PVRTimerInfoTag.cpp xbmc/pvr/filesystem/PVRGUIDirectory.cpp
@@ -9710,7 +9711,7 @@ msgstr "{0:s} 无法播放。更多相关信息见日志。"
 #: @@@ unused?
 msgctxt "#19036"
 msgid "This recording can't be played. Check the log for more information about this message."
-msgstr "此录像无法播放。更多相关信息见日志。"
+msgstr "无法播放此录制文件。更多相关信息见日志。"
 
 #. pvr settings "show signal quality" label
 #: system/settings/settings.xml
@@ -9751,17 +9752,17 @@ msgstr "频道组"
 #: system/settings/settings.xml
 msgctxt "#19043"
 msgid "Recording"
-msgstr "录像"
+msgstr "录制"
 
 #: @@@ unused?
 msgctxt "#19044"
 msgid "Please check your configuration. Check the log for more information about this message."
-msgstr "请检查你的配置。更多相关信息见日志。"
+msgstr "请检查您的配置。更多相关信息见日志。"
 
 #: @@@ unused?
 msgctxt "#19045"
 msgid "No PVR clients have been started yet. Wait for the PVR clients to start up. Check the log for more information about this message."
-msgstr "PVR客户端未启动。等待PVR客户端启动。更多相关信息见日志。"
+msgstr "尚未启动 PVR 客户端。等待 PVR 客户端启动。更多相关信息见日志。"
 
 #: @@@ unused?
 msgctxt "#19046"
@@ -9805,7 +9806,7 @@ msgstr "频道移动到："
 #: xbmc/pvr/PVRContextMenus.cpp
 msgctxt "#19053"
 msgid "Recording information"
-msgstr "录像信息"
+msgstr "录制信息"
 
 #. Header label for hide channel confirmation message box and context menu item label
 #: xbmc/pvr/PVRContextMenus.cpp xbmc/pvr/guilib/PVRGUIActionsChannels.cpp
@@ -9850,7 +9851,7 @@ msgstr "启用定时器"
 #: xbmc/pvr/PVRContextMenus.cpp xbmc/pvr/dialogs/GUIDialogPVRGuideInfo.cpp
 msgctxt "#19059"
 msgid "Stop recording"
-msgstr "停止录像"
+msgstr "停止录制"
 
 #. Label for a context menu entry to delete a timer associated with an epg event and for a button to delete a timer in epg event info dialog
 #: xbmc/pvr/PVRContextMenus.cpp xbmc/pvr/dialogs/GUIDialogPVRGuideInfo.cpp
@@ -9903,7 +9904,7 @@ msgstr "此事件已录制。"
 #: xbmc/pvr/dialogs/GUIDialogPVRRecordingSettings.cpp
 msgctxt "#19068"
 msgid "Recording settings"
-msgstr "录像设置"
+msgstr "录制设置"
 
 #. generic label for the electronic program guide (EPG) used in different places
 #: addons/skin.estuary/xml/Variables.xml xbmc/pvr/guilib/PVRGUIActions.cpp
@@ -9927,7 +9928,7 @@ msgstr "更新间隔"
 #: xbmc/pvr/dialogs/GUIDialogPVRTimerSettings.cpp
 msgctxt "#19072"
 msgid "In order to add/update a timer the end date and time must be greater than the start date and time."
-msgstr "结束时间必需大于开始时间。"
+msgstr "添加或更新定时器时，结束日期和时间必须晚于开始日期和时间。"
 
 #. pvr settings "delay channel switch" setting label
 #: system/settings/settings.xml
@@ -10010,7 +10011,7 @@ msgstr "未知频道 {0:s}"
 #: system/settings/settings.xml xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
 msgctxt "#19086"
 msgid "Instant recording action"
-msgstr "即时录像动作"
+msgstr "即时录制动作"
 
 #. Label for "Instant recording action" settings value
 #: system/settings/settings.xml
@@ -10022,7 +10023,7 @@ msgstr "录制当前节目（如果指南数据可用）"
 #: system/settings/settings.xml
 msgctxt "#19088"
 msgid "Record for a fixed period of time (Instant recording duration)"
-msgstr "录制固定时长（即时录像时长）"
+msgstr "录制固定时长（即时录制时长）"
 
 #. Label for "Instant recording action" settings value
 #: system/settings/settings.xml
@@ -10052,7 +10053,7 @@ msgstr "录制下一节目（{0:s}）"
 #: xbmc/pvr/timers/PVRTimerInfoTag.cpp
 msgctxt "#19093"
 msgid "Instant recording: {0:s}"
-msgstr "即时录像：{0:s}"
+msgstr "即时录制：{0:s}"
 
 #. error message displayed in case adding a timer failed because no suitable epg-based timer type could be found.
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
@@ -10121,7 +10122,7 @@ msgstr "转到频道"
 #: xbmc/pvr/dialogs/GUIDialogPVRTimerSettings.cpp
 msgctxt "#19104"
 msgid "Enter the name of the folder for the recording"
-msgstr "输入录像文件夹名称"
+msgstr "输入录制文件夹名称"
 
 #. unused?
 msgctxt "#19105"
@@ -10151,7 +10152,7 @@ msgstr "备用帧率"
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
 msgctxt "#19109"
 msgid "Could not save the timer. Check the log for more information about this message."
-msgstr "无法保存定时器。更多相关信息见日志。"
+msgstr "无法保存计时器。更多相关信息见日志。"
 
 #. message box text stating that a timer could not be deleted
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
@@ -10163,7 +10164,7 @@ msgstr "无法删除定时器。更多相关信息见日志。"
 #: xbmc/pvr/guilib/PVRGUIActionsRecordings.cpp
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for more information about this message."
-msgstr "PVR 后端错误。更多相关信息见日志。"
+msgstr "PVR 后端出错。更多相关信息见日志。"
 
 #. delete recordings confirmation message box text
 #: xbmc/pvr/guilib/PVRGUIActionsRecordings.cpp
@@ -10227,7 +10228,7 @@ msgstr "避免重复"
 #: xbmc/pvr/timers/PVRTimerInfoTag.cpp
 msgctxt "#19122"
 msgid "This timer is still recording. Are you sure you want to delete this timer?"
-msgstr "此定时器仍在录像，确定删除此定时器吗？"
+msgstr "此定时器仍在录制，确定删除此定时器吗？"
 
 #: addons/skin.estuary/xml/DialogPVRGuideSearch.xml
 msgctxt "#19123"
@@ -10242,7 +10243,7 @@ msgstr "忽略当前定时器"
 #: addons/skin.estuary/xml/DialogPVRGuideSearch.xml
 msgctxt "#19125"
 msgid "Ignore present recordings"
-msgstr "忽略当前录像"
+msgstr "忽略当前录制"
 
 #. Label of "Start time" spinner in PVR timer settings dialog
 #: xbmc/pvr/dialogs/GUIDialogPVRTimerSettings.cpp
@@ -10372,7 +10373,7 @@ msgstr "组"
 #: xbmc/pvr/dialogs/GUIDialogPVRRecordingSettings.cpp
 msgctxt "#19147"
 msgid "Setting the lifetime of this recording to {0:d} days will immediately expire the recording, which might result in instant deletion of the recording. Proceed anyway?"
-msgstr "将录像的生命周期设置为 {0:d} 天将使录像立即过期，导致录像即时删除。仍要继续吗？"
+msgstr "将录制的生命周期设置为 {0:d} 天将使录像立即过期，导致录像即时删除。仍要继续吗？"
 
 #. generic PVR 'channel' label used in different places
 #: addons/skin.estuary/xml/DialogPVRRadioRDSInfo.xml
@@ -10432,12 +10433,12 @@ msgstr "从"
 #: addons/skin.estuary/xml/Home.xml
 msgctxt "#19157"
 msgid "Next recording"
-msgstr "下一录像"
+msgstr "下一录制"
 
 #: addons/skin.estuary/xml/Home.xml
 msgctxt "#19158"
 msgid "Currently recording"
-msgstr "当前录像"
+msgstr "当前录制"
 
 #. part of timer / timer rule textual representation (e.g. "10/10/2016 from 11:00 PM to 10/11/2016 1:00 AM". "Mondays from any time to any time")
 #: xbmc/pvr/timers/PVRTimerInfoTag.cpp
@@ -10461,19 +10462,19 @@ msgstr "任何时间"
 #: xbmc/pvr/timers/PVRTimerInfoTag.cpp
 msgctxt "#19162"
 msgid "Recording active"
-msgstr "录像激活"
+msgstr "录制激活"
 
 #. label for number of PVR recordings in system information's PVR section
 #: xbmc/windows/GUIWindowSystemInfo.cpp
 msgctxt "#19163"
 msgid "Recordings"
-msgstr "录像"
+msgstr "录制"
 
 #. error box text stating that recording could not be started
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
 msgctxt "#19164"
 msgid "Could not start recording. Check the log for more information about this message."
-msgstr "无法开始录像。更多相关信息见日志。"
+msgstr "无法开始录制。更多相关信息见日志。"
 
 #. Label for "switch to channel" button""
 #: addons/skin.estuary/xml/DialogPVRInfo.xml
@@ -10512,7 +10513,7 @@ msgstr "隐藏视频信息框"
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
 msgctxt "#19170"
 msgid "Could not stop recording. Check the log for more information about this message."
-msgstr "无法停止录像。更多相关信息见日志。"
+msgstr "无法停止录制。更多相关信息见日志。"
 
 #. pvr settings "start playback full screen" setting label
 #: system/settings/settings.xml
@@ -10524,7 +10525,7 @@ msgstr "切换到全屏"
 #: system/settings/settings.xml
 msgctxt "#19172"
 msgid "Instant recording duration"
-msgstr "即时录像时长"
+msgstr "即时录制时长"
 
 #. generic label for 'Live TV channel groups' used in different places
 #: addons/skin.estuary/xml/DialogPVRGroupManager.xml
@@ -10655,7 +10656,7 @@ msgstr "连接的 PVR 后端不支持频道扫描。"
 #: xbmc/pvr/guilib/PVRGUIActionsChannels.cpp
 msgctxt "#19193"
 msgid "The channel scan can't be started. Check the log for more information about this message."
-msgstr "无法启动频道搜索。更多相关信息见日志。"
+msgstr "无法启动频道扫描。更多相关信息见日志。"
 
 #. unused?
 msgctxt "#19194"
@@ -10678,13 +10679,13 @@ msgstr "PVR 客户端具体动作"
 #: xbmc/pvr/addons/PVRClient.cpp
 msgctxt "#19197"
 msgid "Recording started on: {0:s}"
-msgstr "录像开始于：{0:s}"
+msgstr "录制开始于：{0:s}"
 
 #. text for "recording finished on <pvr client name>" pvr client addon callback notification
 #: xbmc/pvr/addons/PVRClient.cpp
 msgctxt "#19198"
 msgid "Recording finished on: {0:s}"
-msgstr "录像完成于：{0:s}"
+msgstr "录制完成于：{0:s}"
 
 #. pvr settings "channel manager" action button label
 #: system/settings/settings.xml addons/skin.estuary/xml/Variables.xml
@@ -10827,25 +10828,25 @@ msgstr "无可激活的 PVR 插件。检查你的设置或详细日志记录。"
 #: xbmc/pvr/timers/PVRTimerInfoTag.cpp
 msgctxt "#19224"
 msgid "Recording aborted"
-msgstr "录像已中止"
+msgstr "录制已中止"
 
 #. Notification text to announce that a recording was scheduled
 #: xbmc/pvr/timers/PVRTimerInfoTag.cpp
 msgctxt "#19225"
 msgid "Recording scheduled"
-msgstr "已预约录像"
+msgstr "已预约录制"
 
 #. Notification text to announce that a recording started
 #: xbmc/pvr/timers/PVRTimerInfoTag.cpp
 msgctxt "#19226"
 msgid "Recording started"
-msgstr "录像已开始"
+msgstr "录制已开始"
 
 #. Notification text to announce that a recording completed
 #: xbmc/pvr/timers/PVRTimerInfoTag.cpp
 msgctxt "#19227"
 msgid "Recording completed"
-msgstr "录像已完成"
+msgstr "录制已完成"
 
 #. Notification text to announce that a timer was deleted
 #: xbmc/pvr/timers/PVRTimerInfoTag.cpp
@@ -10911,7 +10912,7 @@ msgstr "从客户端载入定时器"
 #: xbmc/pvr/PVRManager.cpp
 msgctxt "#19238"
 msgid "Loading recordings from clients"
-msgstr "从客户端载入录像"
+msgstr "从客户端载入录制"
 
 #. label for PVR client creation progress control
 #: xbmc/pvr/addons/PVRClients.cpp
@@ -10960,7 +10961,7 @@ msgstr "唤醒命令"
 #: system/settings/settings.xml
 msgctxt "#19246"
 msgid "Wakeup before recording"
-msgstr "录像前唤醒"
+msgstr "录制前唤醒"
 
 #. label for PVR settings daily wakeup control. if checked, the box where kodi is installed on will be automatically turned on at the given time.
 #: system/settings/settings.xml
@@ -11059,7 +11060,7 @@ msgstr "家长控制，输入 PIN："
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
 msgctxt "#19263"
 msgid "Could not update the timer. Check the log for more information about this message."
-msgstr "无法更新定时器。更多相关信息见日志。"
+msgstr "无法更新计时器。更多相关信息见日志。"
 
 #. label for 'incorrect pin' error dialog header
 #: xbmc/pvr/guilib/PVRGUIActionsParentalControl.cpp
@@ -11143,12 +11144,12 @@ msgstr "冲突错误"
 #: xbmc/pvr/timers/PVRTimerInfoTag.cpp
 msgctxt "#19277"
 msgid "Recording conflict"
-msgstr "录像冲突"
+msgstr "录制冲突"
 
 #. Notification text to announce that a recording has an error
 msgctxt "#19278"
 msgid "Recording error"
-msgstr "录像错误"
+msgstr "录制错误"
 
 #. pvr settings 'PVR clients' group label.
 #: system/settings/settings.xml
@@ -11242,13 +11243,13 @@ msgstr "永久删除所有的"
 #: xbmc/pvr/guilib/PVRGUIActionsRecordings.cpp
 msgctxt "#19293"
 msgid "Remove all deleted recordings from trash? This operation cannot be reverted."
-msgstr "确定要从垃圾桶中移除所有已删除的记录？ 此操作无法恢复。"
+msgstr "是否清空回收站中所有已删除的录制文件？此操作不可撤销。"
 
 #. "remove deleted recording from trash" dialog text
 #: xbmc/pvr/guilib/PVRGUIActionsRecordings.cpp
 msgctxt "#19294"
 msgid "Remove this deleted recording from trash? This operation cannot be reverted."
-msgstr "确定要从垃圾桶中移除此已删除的记录？ 此操作无法恢复。"
+msgstr "是否从回收站移除此已删除录制？此操作不可撤销。"
 
 #. Label for context menu entry to delete a timer rule
 #: xbmc/pvr/PVRContextMenus.cpp
@@ -11339,19 +11340,19 @@ msgstr "定于 [B]{1:s}[/B] 在频道 [B]{0:s}[/B] 的提醒。"
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
 msgctxt "#19309"
 msgid "(Auto-close of this reminder will schedule a recording...)"
-msgstr "（自动关闭此提醒将安排录像…）"
+msgstr "（自动关闭此提醒将安排录制…）"
 
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
 msgctxt "#19310"
 msgid "Scheduled recording for auto-closed PVR reminder for '{0:s}' on channel '{1:s}' at '{2:s}'"
-msgstr "为自动关闭定于“{2:s}”在频道“{1:s}”的“{0:s}”的 PVR 提醒安排录像"
+msgstr "为自动关闭定于“{2:s}”在频道“{1:s}”的“{0:s}”的 PVR 提醒安排录制"
 
 #. text for event log entry for logging auto scheduled recordings for auto-closed reminders
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
 msgctxt "#19311"
 msgid "Scheduled recording for auto-closed PVR reminder for channel '{0:s}' at '{1:s}'"
-msgstr "为自动关闭定于“{1:s}”在频道“{0:s}”的 PVR 提醒安排录像"
+msgstr "为自动关闭定于“{1:s}”在频道“{0:s}”的 PVR 提醒安排录制"
 
 #. heading for pvr reminder notification dialog
 #: xbmc/pvr/guilib/PVRGUIActionsTimers.cpp
@@ -11369,7 +11370,7 @@ msgstr "之后自动关闭提醒弹出窗口"
 #: system/settings/settings.xml
 msgctxt "#19314"
 msgid "Schedule recording when auto-closing the reminder popup"
-msgstr "自动关闭提醒弹出窗口时安排录像"
+msgstr "自动关闭提醒弹出窗口时安排录制"
 
 #. generic 'backend order' label
 #: xbmc/pvr/windows/GUIViewStatePVR.cpp xbmc/utils/SortUtils.cpp
@@ -12278,7 +12279,7 @@ msgstr "播放列表目录"
 
 msgctxt "#20007"
 msgid "Recordings"
-msgstr "录像"
+msgstr "录制"
 
 #: xbmc/dialogs/GUIDialogMediaSource.cpp
 msgctxt "#20008"
@@ -12544,7 +12545,7 @@ msgstr "请确定选择的文件夹是可写入的且新文件夹名是有效的
 #: xbmc/playlists/SmartPlaylist.cpp
 msgctxt "#20074"
 msgid "MPAA rating"
-msgstr "MPAA 分级"
+msgstr "美国电影协会评分"
 
 #: xbmc/windows/GUIWindowLoginScreen.cpp
 msgctxt "#20075"
@@ -12736,7 +12737,7 @@ msgstr "载入程序信息"
 
 msgctxt "#20121"
 msgid "Party on!"
-msgstr "舞会模式开启！"
+msgstr "派对模式开启！"
 
 #: xbmc/playlists/SmartPlaylist.cpp
 msgctxt "#20122"
@@ -13183,7 +13184,7 @@ msgstr "窗口文档"
 
 msgctxt "#20250"
 msgid "Party on! (videos)"
-msgstr "舞会模式开启！（视频）"
+msgstr "派对模式开启！（视频）"
 
 msgctxt "#20251"
 msgid "Mixing drinks (videos)"
@@ -13468,7 +13469,7 @@ msgstr "电视剧信息"
 #: xbmc/video/jobs/VideoLibraryRefreshingJob.cpp xbmc/video/ContextMenus.h
 msgctxt "#20352"
 msgid "Episode information"
-msgstr "分集信息"
+msgstr "剧集信息"
 
 msgctxt "#20353"
 msgid "Loading TV show details"
@@ -13476,7 +13477,7 @@ msgstr "载入电视剧详细资料"
 
 msgctxt "#20354"
 msgid "Fetching episode guide"
-msgstr "获取分集介绍"
+msgstr "获取剧集介绍"
 
 msgctxt "#20355"
 msgid "Loading information for episodes in directory"
@@ -13500,7 +13501,7 @@ msgstr "第 {0:d} 季"
 #: addons/skin.estuary/xml/Variables.xml
 msgctxt "#20359"
 msgid "Episode"
-msgstr "集"
+msgstr "剧集"
 
 #: xbmc/dialogs/GUIDialogMediaFilter.cpp
 #: xbmc/dialogs/GUIDialogSmartPlaylistEditor.cpp
@@ -13510,15 +13511,15 @@ msgstr "集"
 #: addons/skin.estuary/xml/Variables.xml xbmc/view/GUIViewState.cpp
 msgctxt "#20360"
 msgid "Episodes"
-msgstr "集"
+msgstr "剧集"
 
 msgctxt "#20361"
 msgid "Loading episode details"
-msgstr "载入分集详细资料"
+msgstr "载入剧集详细资料"
 
 msgctxt "#20362"
 msgid "Remove episode from library"
-msgstr "从资料库移除分集"
+msgstr "从资料库移除剧集"
 
 msgctxt "#20363"
 msgid "Remove TV show from library"
@@ -13531,7 +13532,7 @@ msgstr "电视剧"
 
 msgctxt "#20365"
 msgid "Episode plot"
-msgstr "分集剧情"
+msgstr "单集剧情梗概"
 
 #: xbmc/filesystem/VideoDatabaseDirectory/DirectoryNode.cpp
 #: xbmc/filesystem/VideoDatabaseDirectory/DirectoryNodeSeasons.cpp
@@ -13725,11 +13726,11 @@ msgstr "移除书签"
 
 msgctxt "#20405"
 msgid "Remove episode bookmark"
-msgstr "移除分集书签"
+msgstr "移除单集书签"
 
 msgctxt "#20406"
 msgid "Set episode bookmark"
-msgstr "设置分集书签"
+msgstr "设置单集书签"
 
 msgctxt "#20407"
 msgid "Information provider settings"
@@ -13758,11 +13759,11 @@ msgstr "不显示电视剧季目录"
 
 msgctxt "#20413"
 msgid "Get fanart"
-msgstr "获取同人画"
+msgstr "获取背景图"
 
 msgctxt "#20414"
 msgid "Show fanart in video and music libraries"
-msgstr "在视频和音乐资料库显示同人画"
+msgstr "在视频和音乐资料库显示背景图"
 
 msgctxt "#20415"
 msgid "Scanning for new content"
@@ -13823,7 +13824,7 @@ msgstr "假"
 
 msgctxt "#20425"
 msgid "Fanart slideshow"
-msgstr "幻灯播放同人画"
+msgstr "背景图轮播"
 
 #. xbmc/interfaces/builtins/LibraryBuiltins.cpp
 msgctxt "#20426"
@@ -13848,7 +13849,7 @@ msgstr "多文件"
 #. xbmc/interfaces/builtins/LibraryBuiltins.cpp
 msgctxt "#20430"
 msgid "Export thumbnails and fanart?"
-msgstr "导出缩略图和同人画？"
+msgstr "导出缩略图和背景图？"
 
 msgctxt "#20431"
 msgid "Overwrite old files?"
@@ -13883,27 +13884,27 @@ msgstr "导出演员缩略图？"
 #: xbmc/music/dialogs/GUIDialogMusicInfo.cpp
 msgctxt "#20437"
 msgid "Choose fanart"
-msgstr "选择同人画"
+msgstr "选择背景图"
 
 #: xbmc/music/dialogs/GUIDialogMusicInfo.cpp
 msgctxt "#20438"
 msgid "Local fanart"
-msgstr "本地同人画"
+msgstr "本地背景图"
 
 #: xbmc/music/dialogs/GUIDialogMusicInfo.cpp
 msgctxt "#20439"
 msgid "No fanart"
-msgstr "无同人画"
+msgstr "无背景图"
 
 #: xbmc/music/dialogs/GUIDialogMusicInfo.cpp
 msgctxt "#20440"
 msgid "Current fanart"
-msgstr "当前同人画"
+msgstr "当前背景图"
 
 #: xbmc/music/dialogs/GUIDialogMusicInfo.cpp
 msgctxt "#20441"
 msgid "Remote fanart"
-msgstr "远程同人画"
+msgstr "远程背景图"
 
 #: xbmc/video/windows/GUIWindowVideoBase.cpp
 msgctxt "#20442"
@@ -13925,7 +13926,7 @@ msgstr "加入资料库"
 #: addons/skin.estuary/xml/View_502_FanArt.xml
 msgctxt "#20445"
 msgid "Fanart"
-msgstr "同人画"
+msgstr "背景图"
 
 #. Ask user when refreshing music or video info if they want to use data from NFO file
 #: xbmc/music/infoscanner/MusicInfoScanner.cpp
@@ -13962,12 +13963,12 @@ msgstr "国家"
 
 msgctxt "#20452"
 msgid "episode"
-msgstr "集"
+msgstr "单集"
 
 #: addons/skin.estuary/xml/DialogVideoInfo.xml
 msgctxt "#20453"
 msgid "episodes"
-msgstr "集"
+msgstr "单集"
 
 msgctxt "#20454"
 msgid "Listener"
@@ -14080,17 +14081,19 @@ msgstr "有多个版本"
 #: xbmc/playlists/SmartPlayList.cpp
 msgctxt "#20476"
 msgid "Has video extras"
-msgstr "有视频附加功能"
+msgstr "有额外的视频"
 
 #. When you create a new profile ask to user if wants to create it in a custom directory
 #: xbmc/profiles/dialogs/GUIDialogProfileSettings.cpp
 msgctxt "#20477"
 msgid "Do you want to create the new profile in a custom directory?"
-msgstr "是否要在自定义目录中创建新用户配置文件？"
+msgstr "是否要在自定义目录中创建新配置文件？"
 
-# empty strings from id 20478 to 21329
-# up to 21329 is reserved for the video db !! !
-#: system/settings/settings.xml
+#. Used in smart playlists to select items based on the HDR type (HDR10, HLG, Dolbyvision)
+msgctxt "#20478"
+msgid "DV profile"
+msgstr "杜比视界配置文件"
+
 msgctxt "#21330"
 msgid "Show hidden files and directories"
 msgstr "显示隐藏文件和目录"
@@ -14188,13 +14191,13 @@ msgstr "MIME 类型: \"{0:s}\""
 #: xbmc/filesystem/DiscDirectoryHelper.cpp
 msgctxt "#21348"
 msgid "Special {0:d} - {1:s}"
-msgstr "特别篇 {0:d}-{1:s}"
+msgstr "特别篇 {0:d} - {1:s}"
 
 #. Used to show an episode in episode list, eg. 'Episode 4 - The Return'
 #: xbmc/filesystem/DiscDirectoryHelper.cpp
 msgctxt "#21349"
 msgid "Episode {0:d} - {1:s}"
-msgstr "集 {0:d} - {1:s}"
+msgstr "第 {0:d} 集 - {1:s}"
 
 #. Used to show a special in episode list
 #: xbmc/filesystem/DiscDirectoryHelper.cpp
@@ -14230,7 +14233,7 @@ msgstr "书签已建立"
 #: xbmc/video/dialogs/GUIDialogVideoBookmarks.cpp
 msgctxt "#21363"
 msgid "Episode bookmark created"
-msgstr "分集书签已建立"
+msgstr "单集书签已建立"
 
 #: xbmc/dialogs/GUIDialogFileBrowser.cpp
 msgctxt "#21364"
@@ -14382,7 +14385,10 @@ msgctxt "#21397"
 msgid "High quality pixel shader v2"
 msgstr "高品质像素着色器 V2"
 
-# empty string with id 21398
+msgctxt "#21398"
+msgid "between"
+msgstr "在…… 之间"
+
 msgctxt "#21399"
 msgid "Use tween animations"
 msgstr "使用 Tween 动画效果"
@@ -14469,7 +14475,7 @@ msgstr "默认音乐电视信息提供者"
 #: system/settings/settings.xml
 msgctxt "#21416"
 msgid "Select first unwatched TV show season / episode"
-msgstr "选择首个未观看电视剧季/分集"
+msgstr "选择首个未观看电视剧季/集"
 
 #: system/settings/settings.xml
 msgctxt "#21417"
@@ -14575,7 +14581,7 @@ msgstr "{0:c} 磁盘"
 
 msgctxt "#21439"
 msgid "Edit party mode rules"
-msgstr "编辑舞会模式规则"
+msgstr "编辑派对模式规则"
 
 msgctxt "#21440"
 msgid "Home folder"
@@ -14587,7 +14593,7 @@ msgstr "观看次数"
 
 msgctxt "#21442"
 msgid "Episode title"
-msgstr "分集标题"
+msgstr "单集标题"
 
 #: xbmc/playlists/SmartPlaylist.cpp
 msgctxt "#21443"
@@ -14718,7 +14724,7 @@ msgstr "屏幕顶部"
 #: system/settings/settings.xml
 msgctxt "#21466"
 msgid "When entering a TV show season or episode view automatically select the first unwatched season or episode.[CR][On first entry] The first unwatched item will be selected only when a view is entered for the first time.[CR][Always] The first unwatched item will be selected every time a view is entered."
-msgstr "进入电视剧季或剧集视图自动选择首个未观看季或分集。[CR][首次进入] 首次进入一视图时首个未观看项目被选择。[CR][总是] 每次进入视图时首个未观看项目都被选择。"
+msgstr "进入电视剧季或集视图自动选择首个未观看季或集。[CR][首次进入] 首次进入一视图时首个未观看项目被选择。[CR][总是] 每次进入视图时首个未观看项目都被选择。"
 
 #. Filter (media data) from float value to float value
 #: xbmc/dialogs/GUIDialogMediaFilter.cpp
@@ -15110,7 +15116,7 @@ msgstr "州"
 #: addons/skin.estuary/xml/MyPics.xml
 msgctxt "#21875"
 msgid "Country"
-msgstr "国家"
+msgstr "国家/地区"
 
 #: xbmc/pictures/GUIDialogPictureInfo.cpp
 msgctxt "#21876"
@@ -15130,7 +15136,7 @@ msgstr "紧急"
 #: xbmc/pictures/GUIDialogPictureInfo.cpp addons/skin.estuary/xml/MyPics.xml
 msgctxt "#21879"
 msgid "Country code"
-msgstr "国家代码"
+msgstr "国家/地区代码"
 
 #: xbmc/pictures/GUIDialogPictureInfo.cpp
 msgctxt "#21880"
@@ -15333,7 +15339,7 @@ msgstr "指南"
 #: system/settings/settings.xml
 msgctxt "#22021"
 msgid "Minimise black bars"
-msgstr "最小黑边"
+msgstr "最小化黑边"
 
 #: system/settings/settings.xml
 msgctxt "#22022"
@@ -15696,7 +15702,7 @@ msgstr "安装 {0:d}%"
 #: xbmc/addons/AddonInstaller.cpp
 msgctxt "#24045"
 msgid "Failed to install add-on from zip file"
-msgstr "无法从zip文件安装加载项"
+msgstr "无法从 zip 文件安装加载项"
 
 #: xbmc/addons/GUIDialogAddonInfo.cpp
 msgctxt "#24046"
@@ -15850,7 +15856,7 @@ msgstr "禁用"
 #: xbmc/addons/AddonInstaller.cpp
 msgctxt "#24076"
 msgid "Add-on required"
-msgstr "依赖插件"
+msgstr "插件依赖"
 
 #. Used as a text in the progress dialog when installing an add-on
 #: xbmc/addons/AddonInstaller.cpp
@@ -15884,7 +15890,7 @@ msgstr "助手插件"
 #: xbmc/addons/Addon.cpp
 msgctxt "#24082"
 msgid "Add-on libraries"
-msgstr "插件模块"
+msgstr "插件库"
 
 #. The label in the add-ons manager for information libraries
 #: xbmc/addons/Addon.cpp
@@ -16316,25 +16322,25 @@ msgstr "数值越高，平移手势越灵敏"
 #: xbmc/addons/gui/GUIHelpers.cpp
 msgctxt "#24164"
 msgid "Add-on \"{0:s}\" broken"
-msgstr "加载项“{0:s}”已损坏"
+msgstr "插件“{0:s}”已损坏"
 
 #. Yes/no dialog text with add-on broken string value and to ask for use
 #: xbmc/addons/gui/GUIHelpers.cpp
 msgctxt "#24165"
 msgid "Add-on marked as broken with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
-msgstr "加载项被标记为已损坏，并带有以下注释:[CR][B][I]{0:s}[/I][/B][CR][CR]是否要启用？"
+msgstr "插件被标记为已损坏，并带有以下注释:[CR][B][I]{0:s}[/I][/B][CR][CR]是否要启用？"
 
 #. Header text for yes/no dialog about enable of deprecated add-on
 #: xbmc/addons/gui/GUIHelpers.cpp
 msgctxt "#24166"
 msgid "Add-on \"{0:s}\" deprecated"
-msgstr "加载项“{0:s}”已弃用"
+msgstr "插件“{0:s}”已弃用"
 
 #. Yes/no dialog text with add-on deprecated string value and to ask for use
 #: xbmc/addons/gui/GUIHelpers.cpp
 msgctxt "#24167"
 msgid "Add-on marked as deprecated with following note:[CR][B][I]{0:s}[/I][/B][CR][CR]Do you want to enable?"
-msgstr "加载项被标记为已弃用，并带有以下注释:[CR][B][I]{0:s}[/I][/B][CR][CR]是否要启用？"
+msgstr "插件被标记为已弃用，并带有以下注释:[CR][B][I]{0:s}[/I][/B][CR][CR]是否要启用？"
 
 #. Notification event to show addon marked as deprecated.
 #: xbmc/addons/AddonInstaller.cpp
@@ -16414,13 +16420,13 @@ msgstr "最低：{0:s} / 不可用{3:s}"
 #: xbmc/Application.cpp
 msgctxt "#24186"
 msgid "Connecting to database - please wait"
-msgstr "连接到数据库 - 请稍候"
+msgstr "正在连接数据库 - 请等待"
 
 #. Error text on splash screen
 #: xbmc/Application.cpp
 msgctxt "#24187"
 msgid "Failed to initialise databases - exiting in {} seconds."
-msgstr "无法初始化数据库 - 在 {} 秒内退出。"
+msgstr "数据库初始化失败 - 将在 {} 秒后退出。"
 
 # empty strings from id 24188 to 24990
 #. Used as error message in add-on browser when add-on repository data could not be downloaded
@@ -16555,7 +16561,7 @@ msgstr "手动"
 #: xbmc/video/dialogs/GUIDialogSimpleMenu.cpp
 msgctxt "#25015"
 msgid "Selected playlist is already in use. Associate with this episode instead?"
-msgstr "所选播放列表已在使用中。与这一集联系在一起？"
+msgstr "所选播放列表已被占用。是否改为关联至该单集？"
 
 #. Inform user that no valid movie playlist has been found on disc
 #: xbmc/video/dialogs/GUIDialogSimpleMenu.cpp
@@ -16567,10 +16573,14 @@ msgstr "未找到有效的电影播放列表。"
 #: xbmc/video/dialogs/GUIDialogSimpleMenu.cpp
 msgctxt "#25017"
 msgid "No valid episode playlist has been found."
-msgstr "未找到有效的分集播放列表。"
+msgstr "未找到有效的单集播放列表。"
 
-# empty strings from id 25018 to 29800
-#: unused
+#. Automatic menu
+#. Simple menu is shown only if playlist not identified automatically
+msgctxt "#25018"
+msgid "Automatic menu selection"
+msgstr "自动菜单选择"
+
 msgctxt "#29801"
 msgid "QWERTY keyboard"
 msgstr "QWERTY 键盘"
@@ -17386,7 +17396,7 @@ msgstr "关于您的"
 #: Unknown
 msgctxt "#33067"
 msgid "Star rating"
-msgstr "星级"
+msgstr "星级评分"
 
 #: Unknown
 msgctxt "#33068"
@@ -17632,7 +17642,7 @@ msgstr "为了让某些 AVR 保持开机，我们发送一个人耳听不见的�
 #: system/settings/settings.xml
 msgctxt "#34114"
 msgid "Include LFE when downmixing"
-msgstr "下混时包括 LFE"
+msgstr "下混时包括 LFE（低频效果声道）"
 
 #. Description of setting with label #34114 "Include LFE when downmixing"
 #: system/settings/settings.xml
@@ -17644,7 +17654,7 @@ msgstr "如果启用，当没有专门的 LFE 输出通道时，该设置将在�
 #: system/settings/settings.xml
 msgctxt "#34116"
 msgid "Off"
-msgstr "关闭"
+msgstr "关"
 
 #. Description of setting with label #34114 "Include LFE when downmixing"
 #: system/settings/settings.xml
@@ -18617,7 +18627,7 @@ msgstr "此版本仅可使用控制器玩游戏。"
 #: xbmc/games/dialogs/osd/DialogGameStretchMode.cpp
 msgctxt "#35237"
 msgid "Normal (1:1 PAR)"
-msgstr "正常 (1:1 PAR)"
+msgstr "正常 (1:1 像素宽高比)"
 
 #. Label of thumbnail in the in-game menu for integer underscaling
 #: xbmc/games/dialogs/osd/DialogGameStretchMode.cpp
@@ -18629,7 +18639,7 @@ msgstr "整数"
 #: xbmc/games/dialogs/osd/DialogGameStretchMode.cpp
 msgctxt "#35239"
 msgid "Integer (1:1 PAR)"
-msgstr "整数 (1:1 PAR)"
+msgstr "整数 (1:1 像素宽高比)"
 
 # empty strings from id 35240 to 35248
 #. Button to open the savestate manager from the game OSD
@@ -19120,7 +19130,7 @@ msgstr "HDR PQ 模式下的用户界面峰值亮度"
 #: system/settings/settings.xml
 msgctxt "#36098"
 msgid "Use 10 bit for SDR"
-msgstr "SDR 使用10位"
+msgstr "SDR 使用 10bit 处理"
 
 #: system/settings/settings.xml
 msgctxt "#36099"
@@ -19376,7 +19386,7 @@ msgstr "当添加媒体到资料库时从在线数据库下载演员缩略图。
 #: system/settings/settings.xml
 msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
-msgstr "选择什么情况下隐藏电视剧的季结点。隐藏时，选择一个电视剧将直接跳到剧集视图。"
+msgstr "选择在哪些情况下隐藏电视剧的季节点。若隐藏，选择电视剧后将直接进入剧集视图。视图。"
 
 #. Description of setting with label #20458 "Group movies in sets"
 #: system/settings/settings.xml
@@ -19569,7 +19579,7 @@ msgstr "此功能区包含视频文件列表处理相关设置。"
 #: system/settings/settings.xml
 msgctxt "#36177"
 msgid "Toggle between [Choose], [Play] (default), [Show information] and [Queue item].[CR][Choose] will open a context menu to select an item, e.g. show information.[CR][Play] will play videos as defined by the setting 'Default play action'.[CR][Show information] will open the video's information dialog.[CR][Queue item] will append the video to the video playlist."
-msgstr "在[选择]、[播放]（默认）、[显示信息]和[加入队列]之间切换。[CR][选择]将打开上下文菜单以选择项目（如显示信息）。[CR][播放]将按照 \"默认播放操作 \"设置来播放视频。[CR][显示信息]将打开视频的信息对话框。[CR][队列项目]将把视频添加到视频播放列表中。"
+msgstr "在[选择]、[播放]（默认）、[显示信息]和[队列项目]之间切换。[CR][选择]将打开一个上下文菜单来选择一个项目，例如显示信息。[CR][播放]将按照 \"默认播放操作 \"设置来播放视频。[CR][显示信息]将打开视频的信息对话框。[CR][队列项目]将把视频添加到视频播放列表中。"
 
 #. Description of setting with label #20433 "Extract thumbnails and video information"
 #: system/settings/settings.xml
@@ -19723,7 +19733,7 @@ msgstr "启用“个人视频录像机”（PVR）功能。需要至少安装有
 #: system/settings/settings.xml
 msgctxt "#36204"
 msgid "Toggle between [Ask if resumable] (default), [Resume] and [Play from beginning].[CR][Ask if resumable] will ask whether to play from beginning or to resume (if a resume point is present).[CR][Resume] will automatically resume playback from the last position that you were viewing them. If no resume point is set, playback will automatically start from the beginning.[CR][Play from beginning] will automatically start playback from beginning, ignoring any existing resume positions."
-msgstr "在[询问是否续播]（默认）、[继续播放]与[从头播放]之间切换。[CR]若存在续播点，[询问是否续播]将弹出选择框，确认是从头播放还是继续播放。[CR][继续播放]将自动从上次观看的位置恢复播放；若未设置续播点，则自动从头开始播放。[CR][从头播放]将自动从头启动播放，忽略所有已有的续播点。\""
+msgstr "在 [可恢复时询问]（默认）、[继续播放] 和 [从头开始播放] 之间切换。[CR][可恢复时询问]：若存在恢复点，系统会询问您是从头开始播放还是从上次中断处继续播放。[CR][继续播放]：自动从上次观看的位置继续播放。若未设置恢复点，将自动从头开始播放。[CR][从头开始播放] 忽略所有已有的恢复点，自动从头开始播放。"
 
 #: system/settings/settings.xml
 msgctxt "#36205"
@@ -19872,12 +19882,12 @@ msgstr "当向前后翻频道时，延迟真实频道切换。这使你不用等
 #: system/settings/settings.xml
 msgctxt "#36233"
 msgid "This category contains settings for recordings."
-msgstr "此功能区包含录像相关设置。"
+msgstr "此功能区包含录制相关设置。"
 
 #: system/settings/settings.xml
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button. This value will be taken into account if \"Instant recording action\" is set to \"Record for a fixed period of time\""
-msgstr "按下录像按钮时即时录像的时长。将在“即时录像动作”设置为“录制固定时长”时使用此值"
+msgstr "按下录制按钮时即时录制的时长。将在“即时录制动作”设置为“录制固定时长”时使用此值"
 
 #: system/settings/settings.xml
 msgctxt "#36235"
@@ -19892,12 +19902,12 @@ msgstr "如果设置为大于零的值，最后一次观看的频道时间，将
 #: system/settings/settings.xml
 msgctxt "#36237"
 msgid "Additional time to record before the scheduled start time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
-msgstr "预约录像开始时间的提前量，以允许播出时间的小误差。并非所有插件和后端都支持。"
+msgstr "预约录制开始时间的提前量，以允许播出时间的小误差。并非所有插件和后端都支持。"
 
 #: system/settings/settings.xml
 msgctxt "#36238"
 msgid "Additional time to record after the scheduled end time to allow for minor broadcasting changes. Not supported by all add-ons and backends."
-msgstr "预约录像结束时间的滞后量，以允许播出时间的小误差。并非所有插件和后端都支持。"
+msgstr "预约录制结束时间的滞后量，以允许播出时间的小误差。并非所有插件和后端都支持。"
 
 #: system/settings/settings.xml
 msgctxt "#36239"
@@ -19912,12 +19922,12 @@ msgstr "此功能区包含 PVR 电源管理设置，如何时唤醒 PVR 后端�
 #: system/settings/settings.xml
 msgctxt "#36241"
 msgid "Execute the wakeup command below when exiting this application or going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
-msgstr "存在此应用时执行下面的唤醒命令或进入休眠模式。下一个预约录像的时间戳作为参数传送。"
+msgstr "存在此应用时执行下面的唤醒命令或进入休眠模式。下一个预约录制的时间戳作为参数传送。"
 
 #: system/settings/settings.xml
 msgctxt "#36242"
 msgid "The command will not be executed when a recording will be started within this timeout."
-msgstr "在此超时期限内如有一个录像将启动，则命令不会执行。"
+msgstr "在此超时期限内如有一个录制将启动，则命令不会执行。"
 
 #: system/settings/settings.xml
 msgctxt "#36243"
@@ -19927,7 +19937,7 @@ msgstr "要执行的命令（cmd [时间戳]）。"
 #: system/settings/settings.xml
 msgctxt "#36244"
 msgid "Time to subtract from the start time of the next scheduled recording."
-msgstr "时间减去下一个预约录像起始时间。"
+msgstr "时间减去下一个预约录制起始时间。"
 
 #: system/settings/settings.xml
 msgctxt "#36245"
@@ -19947,7 +19957,7 @@ msgstr "此功能区包含家长控制设置，如果 PVR 后端支持家长控�
 #: system/settings/settings.xml
 msgctxt "#36248"
 msgid "Asks for a pin code to access parental locked channels. Channels can be marked as locked in the channels editor on the general tab. Parental locked channels can't be played or recorded without entering a pin code, and the guide information is hidden for those channels."
-msgstr "请求 PIN 码以访问家长锁定频道。频道可以在频道编辑器的常规页面标记为锁定。未输入 PIN 码则无法播放和录制家长锁定频道，这些频道的指南信息也将隐藏。"
+msgstr "需输入 PIN 码访问家长锁定频道。可在频道编辑器的常规标签中标记频道为已锁定。未输入 PIN 码时，家长锁定频道无法播放或录制，其节目指南信息也会隐藏。"
 
 #: system/settings/settings.xml
 msgctxt "#36249"
@@ -19957,7 +19967,7 @@ msgstr "输入一个新的 PIN 码以解锁家长锁定频道。"
 #: system/settings/settings.xml
 msgctxt "#36250"
 msgid "Ask for the pin code again when trying to access a parental locked channel and the code hasn't been asked for this duration."
-msgstr "当试图访问家长锁定频道且在此时长内未询问PIN码时再次询问PIN码。"
+msgstr "在该时长内，再次访问家长锁定频道时需重新输入 PIN 码。"
 
 #: system/settings/settings.xml
 msgctxt "#36251"
@@ -19978,7 +19988,7 @@ msgstr "包含与音乐文件及其处理相关设置的区域。"
 #: system/settings/settings.xml
 msgctxt "#36254"
 msgid "Action to perform when pressing the record button. [Record current show] will record the current show from \"now\" to the end of the show. If no TV guide data is currently available a fixed length recording starting \"now\", with the value set for \"Instant recording duration\" will be scheduled. [Record for a fixed period of time] will schedule a fixed length recording starting \"now\", with the value set for \"Instant recording duration\". [Ask what to do] will open a dialogue containing different recording actions to choose from, like \"Record current show\", \"Record next show\" and some fixed duration recordings."
-msgstr "按下录像按钮执行的动作。[录制当前节目] 将录制当前节目，从当前时间到节目结束。如果没有可用的电视指南数据，则从当前时间录制固定时长。固定时长由“即时录像时长”设定。[录制固定时长] 将从当前时间录制固定时长。固定时长由“即时录像时长”设定。[询问操作] 将弹出包括不同录制动作选项的对话框，如“录制当前节目”、“录制下一节目”，以及一些固定录像时长。"
+msgstr "按下录制按钮执行的动作。[录制当前节目] 将录制当前节目，从当前时间到节目结束。如果没有可用的电视指南数据，则从当前时间录制固定时长。固定时长由“即时录制时长”设定。[录制固定时长] 将从当前时间录制固定时长。固定时长由“即时录制时长”设定。[询问操作] 将弹出包括不同录制动作选项的对话框，如“录制当前节目”、“录制下一节目”，以及一些固定录制时长。"
 
 #. Description of setting with label #13414 "Show song and album artists"
 #: system/settings/settings.xml
@@ -20648,7 +20658,7 @@ msgstr "选择解码音频可用的最大声道/扬声器数。如果使用光�
 #: system/settings/settings.xml
 msgctxt "#36368"
 msgid "Select to allow passthrough audio for playback of compressed audio such as Dolby Digital (AC3), DTS, etc. The Client of the AudioEngine, for example Videoplayer, might decide to decode the audio stream under certain conditions. In Videoplayer case, passthrough won't be used for live streams and when you sync playback to display."
-msgstr "选择以允许在播放编码压缩的音频如杜比数字（AC3）、DTS 等时进行直通输出。音频引擎的客户端，如 Videoplayer，在某些条件下会决定解码音频流。对 Videoplayer 来说，直播流和同步显示器播放时不使用直通输出。"
+msgstr "勾选以允许音频直通输出，用于播放 Dolby Digital (AC3)、DTS 等压缩音频。音频引擎客户端，如 Videoplayer，可能会自行解码音频流。对 Videoplayer 来说，直播流以及开启播放与显示同步时，将不使用直通输出。"
 
 #. Description of setting with label #349 "TrueHD capable receiver"
 #: system/settings/settings.xml
@@ -20934,8 +20944,8 @@ msgid ""
 "Reduces audio processing latency. Improves playback start, unpause and seek (the audio returns sooner).\n"
 "You can disable this setting if you experience audio issues."
 msgstr ""
-"降低音频处理延迟，优化播放启动、暂停恢复及快进快退的响应速度（音频恢复更迅速）。\n"
-"若出现音频异常，可关闭此项设置。"
+"降低了音频处理的延迟。提升了音频的播放启动速度、暂停后的继续播放速度以及音轨定位速度（音频内容会更快地被播放出来）。↵\n"
+"如果遇到音频相关问题，你可以禁用此设置。"
 
 #. Description of setting with label #21417 "Settings"
 #: system/settings/settings.xml
@@ -20969,7 +20979,7 @@ msgstr "默认情况下，将阻止来自官方库的插件从私有库自动更
 #: system/settings/settings.xml
 msgctxt "#36424"
 msgid "Select what will happen when an item is selected in the guide: [Show context menu] Will trigger the context menu from where you can choose further actions; [Switch to channel] Will instantly tune to the related channel; [Show information] Will display a detailed information with plot and further options; [Record] Will create a recording timer for the selected item. [\"Smart select\"] The action is choosen dynamically, depending on whether the event is in the past, now or in the future."
-msgstr "设定指南中一个项目被选择时的动作：[显示上下文菜单] 将触发上下文菜单供选择进一步的动作；[切换到频道] 将立即切换到相应频道；[显示信息] 将显示剧情和进一步选项的详细信息；[录像] 将创建选定项目的录像定时器。 [\"智能选择\"] 该动作是动态选择的，具体取决于事件在过去，现在或将来。"
+msgstr "设定指南中一个项目被选择时的动作：[显示上下文菜单] 将触发上下文菜单供选择进一步的动作；[切换到频道] 将立即切换到相应频道；[显示信息] 将显示剧情和进一步选项的详细信息；[录制] 将创建选定项目的录制定时器。 [\"智能选择\"] 该动作是动态选择的，具体取决于事件在过去，现在或将来。"
 
 #: system/settings/settings.xml
 msgctxt "#36425"
@@ -20989,13 +20999,13 @@ msgstr "显示信息"
 #: system/settings/settings.xml
 msgctxt "#36428"
 msgid "Record"
-msgstr "录像"
+msgstr "录制"
 
 #. Description of setting with label #667 "Enable Dolby Digital transcoding"
 #: system/settings/settings.xml
 msgctxt "#36429"
-msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC-3), such as a S/PDIF connection. If your system supports PCM multichannel audio via HDMI, leave this disabled."
-msgstr "当类似 SPDIF 这样的音频输出接口仅支持如杜比数字5.1（AC3）多声道音频时选择此项。如果你的系统通过 HDMI 支持 PCM 多声道音频，则禁用此项。"
+msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1 (AC-3), such as a S/PDIF connection. When E-AC3 passthrough is also enabled, Dolby Digital Plus (E-AC3) is used for higher quality. If your system supports PCM multichannel audio via HDMI, leave this disabled."
+msgstr "如果音频输出接口仅支持以杜比数字 5.1（AC-3）格式传输多声道音频（例如 S/PDIF 接口），请勾选此选项。若同时启用了 E-AC3 直通，将使用音质更佳的增强型杜比数字（E-AC3）。如果你的系统通过 HDMI 支持多声道 PCM 音频，请禁用此选项。"
 
 #. Description for setting category #14101: "Video Acceleration"
 #: system/settings/settings.xml
@@ -21767,8 +21777,8 @@ msgstr "最低协议版本"
 #. Description of setting with label #36628 "Minimum protocol version"
 #: system/settings/settings.xml
 msgctxt "#36629"
-msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some OS."
-msgstr "设置连接协商使用的最低 SMB 协议版本。可能需要强制 SMBv2 以阻止某些操作系统使用 SMBv1。"
+msgid "Set the minimum SMB protocol version to negotiate when making connections. Forcing SMBv2 may be required to prevent SMBv1 use on some systems. Only SMBv2.1 and SMBv3 support Large MTU (chunk size > 64 KB)."
+msgstr "设置建立连接时要协商的最低 SMB 协议版本。可能需要强制 SMBv2 以防止在某些系统上使用 SMBv1。只有 SMBv2.1 和 SMBv3 支持大 MTU（块大小> 64 KB）。"
 
 #. Label of a setting, sets additional config required for some proprietary SMBv1 implementations (mostly routers)
 #: system/settings/settings.xml
@@ -22429,20 +22439,20 @@ msgstr "A 区 - 美洲、东亚和东南亚。B 区 - 非洲、中东、西南�
 #: xbmc/video/GUIViewStateVideo.xml
 msgctxt "#38018"
 msgid "My rating"
-msgstr "我的评价"
+msgstr "我的评分"
 
 # empty strings from id 38019 to 38021
 #. Used for the rating selection
 #: xbmc/music/MusicUtils.cpp xbmc/video/dialogs/GUIDialogVideoInfo.cpp
 msgctxt "#38022"
 msgid "No rating"
-msgstr "无评价"
+msgstr "无评分"
 
 #. Used for the rating selection
 #: xbmc/music/MusicUtils.cpp xbmc/video/dialogs/GUIDialogVideoInfo.cpp
 msgctxt "#38023"
 msgid "Set my rating"
-msgstr "设置我的评价"
+msgstr "设置我的评分"
 
 #: xbmc/settings/dialogs/GUIDialogContentSettings.cpp
 msgctxt "#38024"
@@ -22858,7 +22868,7 @@ msgstr "导出的项目"
 #: xbmc/settings/dialogs/GUIDialogLibExportSettings.cpp
 msgctxt "#38307"
 msgid "Include artwork such as thumbnails and fanart"
-msgstr "包含艺术图片，例如缩略图和同人画"
+msgstr "包含艺术图片，例如缩略图和背景图"
 
 #: xbmc/settings/dialogs/GUIDialogLibExportSettings.cpp
 msgctxt "#38308"
@@ -23487,13 +23497,13 @@ msgstr "将本地或通过刮削器远程获取的电视剧和季艺术图片，
 #: system/settings/settings.xml
 msgctxt "#39147"
 msgid "Episode art types whitelist"
-msgstr "分集艺术图片类型白名单"
+msgstr "集艺术图片类型白名单"
 
 #. Description of setting with label #39154 "Episode art types whitelist"
 #: system/settings/settings.xml
 msgctxt "#39148"
 msgid "Limit the episode artwork fetched locally or applied from scraper remote art results to just those art types in the whitelist"
-msgstr "将本地或通过刮削器远程获取的分集艺术图片，限制在白名单中的艺术图片类型"
+msgstr "将本地或通过刮削器远程获取的集艺术图片，限制在白名单中的艺术图片类型"
 
 #: system/settings/settings.xml
 msgctxt "#39149"
@@ -23523,7 +23533,7 @@ msgstr "覆盖字幕样式"
 #: system/settings/settings.xml
 msgctxt "#39155"
 msgid "Some subtitle formats such as SSA / ASS / WebVTT can include metadata like font style, colors, size, alignments, positions, etc. you can override the styles with your customizations (please note that side effects may occur in some cases)."
-msgstr "某些字幕格式，如SSA/ASS/webvtt，可以包含字体样式、颜色、大小、对齐、位置等的元数据。您可以覆盖使用自定义样式（请注意，在某些情况下可能会产生副作用）。"
+msgstr "某些字幕格式，如 SSA/ASS/webvtt，可以包含字体样式、颜色、大小、对齐、位置等的元数据。您可以覆盖使用自定义样式（请注意，在某些情况下可能会产生副作用）。"
 
 #. Item list value of setting with label #39154 "Override subtitles styles"
 #: system/settings/settings.xml
@@ -23637,7 +23647,7 @@ msgstr "模糊"
 #: xbmc/windows/GUIWindowSystemInfo.cpp
 msgctxt "#39174"
 msgid "Display supported HDR types"
-msgstr "显示支持的HDR样式"
+msgstr "显示支持的 HDR 样式"
 
 #. Progress text on splash screen, to build the font cache
 #: xbmc/Application.cpp
@@ -23756,7 +23766,7 @@ msgstr "播放音乐时，不会激活屏幕保护程序"
 #: system/settings/settings.xml
 msgctxt "#39194"
 msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when the video source is 2560x1440 or less and the source resolution is lower than the display resolution.[CR]Only available on specific hardware: NVIDIA RTX and Intel Arc."
-msgstr "启用基于 NVIDIA「RTX 视频超分」或 Intel「视频超分」技术的高级 DXVA 视频缩放器。[CR]适用于视频源分辨率≤2560×1440 且低于显示分辨率的场景。[CR]仅支持特定硬件：NVIDIA RTX 系列显卡及 Intel Arc 系列显卡。"
+msgstr "启用使用 NVIDIA “RTX 视频超分辨率” 或 Intel “视频超分辨率” 的高级 DXVA 升频器。[CR]当视频源分辨率为 2560×1440 或更低，且低于显示器分辨率时生效。[CR]仅支持特定硬件：NVIDIA RTX 系列显卡和 Intel Arc 系列显卡。"
 
 #. Description of setting with label #13418 "Use high precision processing"
 #: system/settings/settings.xml
@@ -23846,13 +23856,13 @@ msgstr "Starfish 是适用于 LG webOS 系统的硬件视频解码器。若需�
 #: system/settings/settings.xml
 msgctxt "#39209"
 msgid "Dolby Vision: Override level 5 metadata to zero"
-msgstr "杜比视界：将 level 5 元数据强制覆盖为零"
+msgstr "杜比视界：将 level 5 元数据强制设为零"
 
 #. Help text for setting "Dolby Vision: Override level 5 metadata to zero" of label #39209
 #: system/settings/settings.xml
 msgctxt "#39210"
-msgid "If enabled, Dolby Vision files will have level 5 (active area) metadata overridden to zero offsets. Enable if your TV has issues with incorrectly cropped image in Dolby Vision playback."
-msgstr "启用后，杜比视界（Dolby Vision）文件的 level 5（有效区域）元数据将被强制覆盖为零偏移量。若你的电视在播放杜比视界内容时存在画面裁剪异常问题，可启用此功能。"
+msgid "If enabled, Dolby Vision files will have level 5 (active area) metadata overridden to zero offsets. Enable if your display has issues with incorrectly cropped image in Dolby Vision playback."
+msgstr "启用后，杜比视界文件的 level 5 (有效显示区域)元数据将被强制覆盖为零偏移。如果您的显示器在播放杜比视界内容时出现图像裁剪错误问题，请启用此选项。"
 
 # empty strings from id 39211 to 39999
 # 40000 to 40800 are reserved for Video Versions feature
@@ -24065,7 +24075,7 @@ msgstr "在媒体库中没有找到类似的电影。"
 #: xbmc/video/dialogs/GUIDialogVideoManagerVersions.cpp
 msgctxt "#40033"
 msgid "Add another version from this disc?"
-msgstr "从这张光盘添加另一个版本？"
+msgstr "从该光盘添加另一个版本？"
 
 #. Addition of new extra: a movie with multiple versions cannot be turned into an extra of another movie.
 #: xbmc/video/dialogs/GUIDialogVideoManagerExtras.cpp
@@ -24113,7 +24123,7 @@ msgstr "是否确实要删除额外的\"{0:s}\"？"
 #: xbmc/video/dialogs/GUIDialogVideoManager.cpp
 msgctxt "#40041"
 msgid "Assign playlist to current movie version?"
-msgstr "分配播放列表到当前的电影版本?"
+msgstr "将播放列表分配给当前电影版本？"
 
 # empty strings with id 40042 to 40201
 #. Ignore different video versions settting
