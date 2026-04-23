@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-04-16 05:19+0000\n"
+"PO-Revision-Date: 2026-04-23 05:19+0000\n"
 "Last-Translator: wabisabi926 <wabisabi926@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Weblate 5.17\n"
 
 #: xbmc/addons/Addon.cpp system/settings/settings.xml
 #: addons/skin.estuary/xml/Includes.xml
@@ -4441,7 +4441,7 @@ msgstr "临近"
 #. Weather token
 msgctxt "#1378"
 msgid "Intensity"
-msgstr "强"
+msgstr "强度"
 
 #. Weather token
 msgctxt "#1379"
@@ -4456,7 +4456,7 @@ msgstr "非常"
 #. Weather token
 msgctxt "#1381"
 msgid "Extreme"
-msgstr "极好"
+msgstr "极端"
 
 #. Weather token
 msgctxt "#1382"
@@ -4471,7 +4471,7 @@ msgstr "天空晴朗"
 #. Weather token
 msgctxt "#1384"
 msgid "Broken"
-msgstr "已失效"
+msgstr "破碎云"
 
 #. Weather token
 msgctxt "#1385"
@@ -4491,7 +4491,7 @@ msgstr "飓风"
 #. Weather token
 msgctxt "#1388"
 msgid "Cold"
-msgstr "云"
+msgstr "寒冷"
 
 #. Weather token
 msgctxt "#1389"
@@ -4526,7 +4526,7 @@ msgstr "严重"
 #. Weather token
 msgctxt "#1395"
 msgid "Violent"
-msgstr "暴"
+msgstr "猛烈"
 
 #. Weather token
 msgctxt "#1396"
@@ -4596,7 +4596,7 @@ msgstr "冰"
 #. Weather token
 msgctxt "#1409"
 msgid "Crystals"
-msgstr "晶"
+msgstr "冰晶"
 
 #. Weather token
 msgctxt "#1410"
@@ -4636,7 +4636,7 @@ msgstr "雾"
 #. Weather token
 msgctxt "#1417"
 msgid "Grains"
-msgstr "小粒"
+msgstr "粒状"
 
 #. Weather token
 msgctxt "#1418"
@@ -4676,7 +4676,7 @@ msgstr "阴"
 #. Weather token
 msgctxt "#1425"
 msgid "Pellets"
-msgstr "凌"
+msgstr "颗粒"
 
 #. Weather token
 msgctxt "#1426"
@@ -4761,7 +4761,7 @@ msgstr "和"
 #. Weather token
 msgctxt "#1442"
 msgid "Chance"
-msgstr "机会"
+msgstr "可能性"
 
 #. Weather token
 msgctxt "#1443"
@@ -4819,7 +4819,7 @@ msgstr "空列表"
 #: xbmc/windows/GUIMediaWindow.cpp
 msgctxt "#2081"
 msgid "Went back to parent list because the active list has been emptied"
-msgstr "回到上级列表因活动列表为空"
+msgstr "因活动列表为空，已返回上级列表"
 
 # empty strings from id 2082 to 2100
 msgctxt "#2101"
@@ -4854,7 +4854,7 @@ msgstr "使用 DTS Core"
 #: system/settings/settings.xml
 msgctxt "#2204"
 msgid "Select this option if you want to passthrough DTS-HD formats as DTS, otherwise, DTS-HD formats will be played via PCM"
-msgstr "若要将 DTS-HD 格式直通为 DTS 则选择此选项，否则将通过 PCM 播放 DTS-HD 格式"
+msgstr "若希望将 DTS-HD 格式以 DTS 格式直通输出，请选择此选项；否则 DTS-HD 格式将通过 PCM 播放"
 
 # empty strings from id 2205 to 9999
 #: xbmc/guilib/WindowIDs.h
@@ -5070,7 +5070,7 @@ msgstr "将以上设置重置为默认值"
 #: xbmc/settings/dialogs/GUIDialogSettingsBase.cpp
 msgctxt "#10042"
 msgid "Are you sure you want to reset the settings in this category?"
-msgstr "你确定要重置此功能模块的所有设置？"
+msgstr "你确定要重置此类别中的所有设置吗？"
 
 msgctxt "#10043"
 msgid "Help"
@@ -5093,7 +5093,7 @@ msgstr "无可用类别"
 #: xbmc/settings/dialogs/GUIDialogSettingsBase.cpp
 msgctxt "#10047"
 msgid "Try changing the setting level to see additional categories and settings."
-msgstr "改变设置级别以查看更多的类别和设置。"
+msgstr "尝试改变设置级别以查看更多的类别和设置。"
 
 #: xbmc/dialogs/GUIDialogMediaSource.cpp
 msgctxt "#10048"
@@ -12192,7 +12192,7 @@ msgctxt "#19685"
 msgid "Confirm shutdown"
 msgstr "确定关机"
 
-#: Label for buttons to open channel guide dialog
+#. Label for buttons to open channel guide dialog
 #: addons/skin.estuary/xml/DialogPVRInfo.xml
 msgctxt "#19686"
 msgid "Channel guide"
@@ -12677,7 +12677,7 @@ msgstr "发现旧媒体源。你要使用吗？"
 
 msgctxt "#20107"
 msgid "Separate (locked)"
-msgstr "分离的（锁定）"
+msgstr "单独显示（锁定）"
 
 #: xbmc/windows/GUIWindowFileManager.cpp
 msgctxt "#20108"
@@ -13992,7 +13992,7 @@ msgstr "电影集"
 #: system/settings/settings.xml
 msgctxt "#20458"
 msgid "Show movie sets"
-msgstr "显示电影集"
+msgstr "显示电影合集"
 
 #: xbmc/dialogs/GUIDialogMediaFilter.cpp
 #: xbmc/dialogs/GUIDialogSmartPlaylistRule.cpp
@@ -18627,7 +18627,7 @@ msgstr "此版本仅可使用控制器玩游戏。"
 #: xbmc/games/dialogs/osd/DialogGameStretchMode.cpp
 msgctxt "#35237"
 msgid "Normal (1:1 PAR)"
-msgstr "正常 (1:1 像素宽高比)"
+msgstr "正常（1:1 像素宽高比 ）"
 
 #. Label of thumbnail in the in-game menu for integer underscaling
 #: xbmc/games/dialogs/osd/DialogGameStretchMode.cpp
@@ -18639,7 +18639,7 @@ msgstr "整数"
 #: xbmc/games/dialogs/osd/DialogGameStretchMode.cpp
 msgctxt "#35239"
 msgid "Integer (1:1 PAR)"
-msgstr "整数 (1:1 像素宽高比)"
+msgstr "整数（1:1 像素宽高比）"
 
 # empty strings from id 35240 to 35248
 #. Button to open the savestate manager from the game OSD
@@ -19386,7 +19386,7 @@ msgstr "当添加媒体到资料库时从在线数据库下载演员缩略图。
 #: system/settings/settings.xml
 msgctxt "#36144"
 msgid "Select in which cases you want to hide the season nodes of TV shows. If hidden, selecting a TV show will directly jump into the episodes view."
-msgstr "选择在哪些情况下隐藏电视剧的季节点。若隐藏，选择电视剧后将直接进入剧集视图。视图。"
+msgstr "选择在哪些情况下隐藏电视剧的季节点。若隐藏，选择电视剧后将直接进入剧集视图。"
 
 #. Description of setting with label #20458 "Group movies in sets"
 #: system/settings/settings.xml
@@ -20944,7 +20944,7 @@ msgid ""
 "Reduces audio processing latency. Improves playback start, unpause and seek (the audio returns sooner).\n"
 "You can disable this setting if you experience audio issues."
 msgstr ""
-"降低了音频处理的延迟。提升了音频的播放启动速度、暂停后的继续播放速度以及音轨定位速度（音频内容会更快地被播放出来）。↵\n"
+"降低了音频处理的延迟。提升了音频的播放启动速度、暂停后的继续播放速度以及音轨定位速度（音频内容会更快地被播放出来）。\n"
 "如果遇到音频相关问题，你可以禁用此设置。"
 
 #. Description of setting with label #21417 "Settings"
@@ -21093,13 +21093,13 @@ msgstr "白名单模式允许用户可以控制允许或不允许使用哪些显
 #: system/settings/settings.xml
 msgctxt "#36444"
 msgid "Select this option to allow using 3:2 pulldown refresh rates (playing 23.976 FPS video on a 59.94 Hz monitor or playing 24 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 23.976 Hz or 24 Hz mode."
-msgstr "选择此选项可允许使用3:2折刷新率（在59.94 Hz显示器上播放23.976 FPS视频或在60 Hz显示器上播放24 FPS视频）。如果您的显示器没有23.976 Hz或24 Hz模式，则可能要使用此选项。"
+msgstr "选择此选项可允许使用 3:2 下拉刷新率（在 59.94 Hz 显示器上播放 23.976 FPS 视频或在 60 Hz 显示器上播放 24 FPS 视频）。如果您的显示器没有 23.976 Hz 或 24 Hz 模式，则可能要使用此选项。"
 
 #. Description of setting with label #14128 "Whitelist"
 #: system/settings/settings.xml
 msgctxt "#36445"
 msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
-msgstr "选择此选项可允许使用双倍刷新率（在59.94 Hz显示器上播放29.97 FPS视频或在60 Hz显示器上播放30 FPS视频）。如果您的显示器没有29.97 Hz或30 Hz模式，则可能要使用此选项。"
+msgstr "选择此选项可允许使用双倍刷新率（在 59.94 Hz显示器上播放 29.97 FPS 视频或在 60 Hz 显示器上播放30 FPS 视频）。如果您的显示器没有 29.97 Hz 或 30 Hz 模式，则可能要使用此选项。"
 
 # empty strings from id 36446 to 36459
 #. Description of settings with label #14112 "Enable event logging"
@@ -21923,7 +21923,7 @@ msgstr "影片集"
 #: xbmc/media/MediaType.cpp
 msgctxt "#36911"
 msgid "sets"
-msgstr "影片集"
+msgstr "合集"
 
 #: xbmc/media/MediaType.cpp
 msgctxt "#36912"
@@ -22657,7 +22657,7 @@ msgstr "现在刷新此项目的信息吗？"
 #: system/library/music/boxsets.xml xbmc/playlists/SmartPlaylist.cpp
 msgctxt "#38074"
 msgid "Boxsets"
-msgstr "套装合辑"
+msgstr "套装合集"
 
 #: xbmc/music/windows/MusicFileItemListModifier.cpp
 msgctxt "#38075"
