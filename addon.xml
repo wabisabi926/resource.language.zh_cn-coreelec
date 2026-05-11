@@ -17,7 +17,9 @@
   </extension>
   <extension point="kodi.addon.metadata">
     <summary lang="en_GB">Chinese (Simple) language pack</summary>
+    <summary lang="zh_CN">简体中文语言包</summary>
     <description lang="en_GB">Chinese (Simple) version of all texts used in Kodi.</description>
+    <description lang="zh_CN">Kodi 界面全部文字的简体中文版本。</description>
     <platform>all</platform>
     <assets>
       <icon>icon.png</icon>
