@@ -18954,8 +18954,8 @@ msgstr "启动时切换源到此设备"
 
 #: system/peripherals.xml
 msgctxt "#36021"
-msgid "Physical address (overrules HDMI port)"
-msgstr "物理地址（取代 HDMI 端口）"
+msgid "Physical address"
+msgstr "物理地址"
 
 # empty string with id 36022
 #: xbmc/peripherals/devices/peripheralcecadapter.cpp
