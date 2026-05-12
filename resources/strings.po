@@ -15849,6 +15849,36 @@ msgctxt "#36053"
 msgid "Tuner Device"
 msgstr "调谐器设备"
 
+#: system/peripherals.xml
+msgctxt "#36054"
+msgid "Minutes standby is delayed after Screensaver is activated"
+msgstr "屏幕保护程序激活后，待机延迟分钟数"
+
+#: system/peripherals.xml
+msgctxt "#36055"
+msgid "Put devices in standby by Screensaver on paused video"
+msgstr "视频暂停时，通过屏幕保护程序使设备进入待机状态"
+
+#: system/peripherals.xml
+msgctxt "#36056"
+msgid "OSD name"
+msgstr "OSD 名称"
+
+#: system/peripherals.xml
+msgctxt "#36057"
+msgid "Wake-Up by auto power on"
+msgstr "通过自动开机唤醒"
+
+#: system/peripherals.xml
+msgctxt "#36058"
+msgid "Wake-Up by streaming path/routing change"
+msgstr "通过流媒体路径 / 路由变更唤醒"
+
+#: system/peripherals.xml
+msgctxt "#36059"
+msgid "Wake-Up by active route"
+msgstr "通过活动路由唤醒"
+
 # empty strings from id 36054 to 36095
 #. Label of setting "System / Display / Use system HDR/SDR brightness balance"
 msgctxt "#36096"
