@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-04-23 05:19+0000\n"
+"PO-Revision-Date: 2026-05-14 20:25+0000\n"
 "Last-Translator: wabisabi926 <wabisabi926@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_Hans/>\n"
-"Language: zh_CN\n"
+"Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: xbmc/addons/Addon.cpp system/settings/settings.xml
 #: addons/skin.estuary/xml/Includes.xml
@@ -1392,6 +1392,8 @@ msgstr "语言"
 #. Label of 'Enabled' radiobutton in PVR timer settings dialog
 #. Label of timers state in PVR timer/timer rule window
 #: system/peripherals.xml system/settings/settings.xml
+#: xbmc/addons/settings/AddonSettings.cpp
+#: xbmc/addons/gui/GUIDialogAddonInfo.cpp
 #: xbmc/addons/gui/GUIDialogAddonSettings.cpp
 #: xbmc/filesystem/AddonsDirectory.cpp
 #: xbmc/pvr/dialogs/GUIDialogPVRTimerSettings.cpp
@@ -5210,7 +5212,8 @@ msgctxt "#10111"
 msgid "Shutdown menu"
 msgstr "关机菜单"
 
-# empty strings from id 10112 to 10113
+#empty strings from id 10112 to 10113
+
 #: xbmc/guilib/WindowIDs.h
 msgctxt "#10114"
 msgid "Player controls"
@@ -5226,13 +5229,15 @@ msgctxt "#10116"
 msgid "Player process info"
 msgstr "播放器处理信息"
 
-# empty strings from id 10117 to 10119
+#empty strings from id 10117 to 10119
+
 #: xbmc/guilib/WindowIDs.h
 msgctxt "#10120"
 msgid "Music OSD"
 msgstr "音乐 OSD"
 
-# empty string with id 10121
+#empty string with id 10121
+
 #: xbmc/guilib/WindowIDs.h
 #: xbmc/music/dialogs/GUIDialogVisualisationPresetList.cpp
 msgctxt "#10122"
@@ -5290,7 +5295,8 @@ msgctxt "#10132"
 msgid "Content settings"
 msgstr "内容设置"
 
-# empty string with id 10133
+#empty string with id 10133
+
 #: xbmc/guilib/WindowIDs.h
 msgctxt "#10134"
 msgid "Favourites"
@@ -5311,7 +5317,8 @@ msgctxt "#10137"
 msgid "Smart playlist rule editor"
 msgstr "智能播放列表规则编辑器"
 
-# empty string with id 10138
+#empty string with id 10138
+
 #: xbmc/guilib/WindowIDs.h
 msgctxt "#10139"
 msgid "Picture info"
@@ -5322,13 +5329,15 @@ msgctxt "#10140"
 msgid "Add-on settings"
 msgstr "插件设置"
 
-# empty string with id 10141
+#empty string with id 10141
+
 #: xbmc/guilib/WindowIDs.h
 msgctxt "#10142"
 msgid "Fullscreen info"
 msgstr "全屏信息"
 
-# empty strings from id 10143 to 10144
+#empty strings from id 10143 to 10144
+
 #: xbmc/guilib/WindowIDs.h
 msgctxt "#10145"
 msgid "Slider dialog"
@@ -5344,7 +5353,8 @@ msgctxt "#10147"
 msgid "Text viewer"
 msgstr "文本查看器"
 
-# empty strings from id 10148 to 10149
+#empty strings from id 10148 to 10149
+
 #: xbmc/guilib/WindowIDs.h
 msgctxt "#10150"
 msgid "Peripheral settings"
@@ -8558,7 +8568,8 @@ msgctxt "#14313"
 msgid "Intended for Dolby Vision enabled displays. HDR content will be tone mapped by Dolby Vision VS-Engine."
 msgstr "适用于支持杜比视界的显示设备。HDR 内容将通过杜比视界 VS 引擎进行色调映射处理。"
 
-# empty strings from id 14305 to 15010
+#empty strings from id 14305 to 15010
+
 #: system/settings/settings.xml
 msgctxt "#14400"
 msgid "CoreELEC"
@@ -8738,12 +8749,14 @@ msgctxt "#15016"
 msgid "Games"
 msgstr "游戏"
 
-# empty strings from id 15017 to 15018
+#empty strings from id 15017 to 15018
+
 msgctxt "#15019"
 msgid "Add"
 msgstr "添加"
 
-# empty strings from id 15020 to 15049
+#empty strings from id 15020 to 15049
+
 #. Name of a list with amount of entries behind on GUI
 msgctxt "#15050"
 msgid "Available modes"
@@ -8759,7 +8772,8 @@ msgctxt "#15052"
 msgid "Password"
 msgstr "密码"
 
-# empty strings from id 15053 to 15065
+#empty strings from id 15053 to 15065
+
 #. Button to disable all enabled modes on current selected type
 msgctxt "#15066"
 msgid "Clear active modes"
@@ -8769,7 +8783,8 @@ msgctxt "#15067"
 msgid "Close"
 msgstr "关闭"
 
-# empty strings from id 15068 to 15099
+#empty strings from id 15068 to 15099
+
 msgctxt "#15100"
 msgid "Library"
 msgstr "资料库"
@@ -8837,12 +8852,14 @@ msgctxt "#15112"
 msgid "Default theme"
 msgstr "默认主题"
 
-# empty strings from id 15113 to 15199
+#empty strings from id 15113 to 15199
+
 msgctxt "#15200"
 msgid "Last.fm"
 msgstr "Last.fm"
 
-# empty strings from id 15201 to 15206
+#empty strings from id 15201 to 15206
+
 #: xbmc/GUIInfoManager.cpp
 msgctxt "#15207"
 msgid "Connected"
@@ -8853,7 +8870,8 @@ msgctxt "#15208"
 msgid "Not connected"
 msgstr "未连接"
 
-# empty strings from id 15209 to 15212
+#empty strings from id 15209 to 15212
+
 #. Label for context menu action to choose a player and play
 #: xbmc/music/ContextMenus.h xbmc/video/ContextMenus.h
 #: xbmc/windows/GUIWindowFileManager.cpp
@@ -8927,8 +8945,10 @@ msgctxt "#15225"
 msgid "Provider"
 msgstr "提供者"
 
-# empty strings from id 15225 to 15299
-#: xbmc/windows/GUIMediaWindow.cpp xbmc/windows/GUIWindowFileManager.cpp
+#empty strings from id 15225 to 15299
+
+#: xbmc/windows/GUIMediaWindow.cpp
+#: xbmc/windows/GUIWindowFileManager.cpp
 msgctxt "#15300"
 msgid "Path not found or invalid"
 msgstr "路径未找到或无效"
@@ -8947,7 +8967,8 @@ msgctxt "#15303"
 msgid "Workgroup not found"
 msgstr "工作组未找到"
 
-# empty strings from id 15304 to 15309
+#empty strings from id 15304 to 15309
+
 msgctxt "#15310"
 msgid "Opening multi-path source"
 msgstr "打开多路径源"
@@ -8986,13 +9007,15 @@ msgctxt "#15316"
 msgid "Autosave"
 msgstr "自动保存"
 
-# empty strings from id 15317 to 15999
+#empty strings from id 15317 to 15999
+
 #: system/settings/settings.xml
 msgctxt "#16000"
 msgid "General"
 msgstr "常规"
 
-# empty string with id 16001
+#empty string with id 16001
+
 msgctxt "#16002"
 msgid "Internet lookup"
 msgstr "互联网查询"
@@ -9159,8 +9182,10 @@ msgctxt "#16039"
 msgid "Off"
 msgstr "关"
 
-# empty string with id 16040
-#: xbmc/GUIInfoManager.cpp xbmc/guilib/GUIRadioButtonControl.cpp"
+#empty string with id 16040
+
+#: xbmc/GUIInfoManager.cpp
+#: xbmc/guilib/GUIRadioButtonControl.cpp"
 msgctxt "#16041"
 msgid "On"
 msgstr "开"
@@ -13266,17 +13291,20 @@ msgctxt "#20309"
 msgid "Make new folder"
 msgstr "新建文件夹"
 
-# empty string with id 20310
+#empty string with id 20310
+
 msgctxt "#20311"
 msgid "Unknown or onboard (protected)"
 msgstr "未知或板载（保护状态）"
 
-# empty strings from id 20312 to 20313
+#empty strings from id 20312 to 20313
+
 msgctxt "#20314"
 msgid "Videos - Library"
 msgstr "视频 - 资料库"
 
-# empty string with id 20315
+#empty string with id 20315
+
 msgctxt "#20316"
 msgid "Sort by: ID"
 msgstr "排序：标识符"
@@ -18626,8 +18654,8 @@ msgstr "此版本仅可使用控制器玩游戏。"
 #. Label of thumbnail in the in-game menu for normal size with 1:1 pixel aspect ratio (PAR)
 #: xbmc/games/dialogs/osd/DialogGameStretchMode.cpp
 msgctxt "#35237"
-msgid "Normal (1:1 PAR)"
-msgstr "正常（1:1 像素宽高比 ）"
+msgid "Square pixels"
+msgstr "方形像素"
 
 #. Label of thumbnail in the in-game menu for integer underscaling
 #: xbmc/games/dialogs/osd/DialogGameStretchMode.cpp
@@ -18638,8 +18666,8 @@ msgstr "整数"
 #. Label of thumbnail in the in-game menu for integer underscaling with 1:1 pixel aspect ratio (PAR)
 #: xbmc/games/dialogs/osd/DialogGameStretchMode.cpp
 msgctxt "#35239"
-msgid "Integer (1:1 PAR)"
-msgstr "整数（1:1 像素宽高比）"
+msgid "Integer (square pixels)"
+msgstr "整数（方形像素）"
 
 # empty strings from id 35240 to 35248
 #. Button to open the savestate manager from the game OSD
@@ -18773,7 +18801,52 @@ msgctxt "#35271"
 msgid "This game requires OpenGL support for 3D rendering. OpenGL support is still under development."
 msgstr "本游戏需要 OpenGL 支持才能进行 3D 渲染。OpenGL 支持仍在开发中。"
 
-# empty strings from id 35272 to 35504
+#. Label for the "Disc menu" button to open the Disc Manager when playing a game
+msgctxt "#35272"
+msgid "Disc menu"
+msgstr "光盘菜单"
+
+#. Label for showing the disc that is inserted in the game's virtual CD drive
+msgctxt "#35273"
+msgid "Disc selection"
+msgstr "光盘选择"
+
+#. Text shown when a disc is removed from the game's virtual CD drive
+msgctxt "#35274"
+msgid "No disc"
+msgstr "无光盘"
+
+#. Label for the button that ejects the disc for a game's virtual CD drive
+msgctxt "#35275"
+msgid "Eject"
+msgstr "弹出"
+
+#. Label for the button that inserts the disc (closes the disc tray) for a game's virtual CD drive
+msgctxt "#35276"
+msgid "Insert"
+msgstr "插入"
+
+#. Label for the button that resumes playing the current game. Called from the in-game menu.
+msgctxt "#35277"
+msgid "Resume game"
+msgstr "继续游戏"
+
+#. Error message shown when the disc can't be ejected for a game's virtual CD drive
+msgctxt "#35278"
+msgid "The disc can't be ejected right now."
+msgstr "当前无法弹出光盘"
+
+#. Error message shown when the disc can't be inserted (closing the disc tray) for a game's virtual CD drive
+msgctxt "#35279"
+msgid "The disc can't be inserted right now."
+msgstr "当前无法插入光盘。"
+
+#. Title of the dialog to select a new disc image for a game's virtual CD drive
+msgctxt "#35280"
+msgid "Select disc"
+msgstr "选择光盘"
+
+# empty strings from id 35281 to 35504
 #. connection state "host unreachable"
 #: xbmc/pvr/addons/PVRClients.cpp
 msgctxt "#35505"
@@ -18907,8 +18980,8 @@ msgstr "启动时切换源到此设备"
 
 #: system/peripherals.xml
 msgctxt "#36021"
-msgid "Physical address (overrules HDMI port)"
-msgstr "物理地址（取代 HDMI 端口）"
+msgid "Physical address"
+msgstr "物理地址"
 
 # empty string with id 36022
 #: xbmc/peripherals/devices/peripheralcecadapter.cpp
@@ -19783,7 +19856,7 @@ msgstr "打开组管理器，以修改组及其所包含的频道"
 #: system/settings/settings.xml
 msgctxt "#36214"
 msgid "Preselect the playing channel in windows and dialogs containing channel lists. If enabled and there is a playing channel, the playing channel will be selected when opening a window or dialog containing a channel list. If disabled, the channel previously selected in a window or dialog will be selected when opening a window containing a channel list. "
-msgstr "预先选择包含频道列表的窗口和对话框中的播放频道。如果启用并且有播放频道，当打开包含频道列表的窗口或对话框时将选择播放频道。如果禁用，打开包含频道列表的窗口时，将选择之前在窗口或对话框中选择的频道。 "
+msgstr "预先选择包含频道列表的窗口和对话框中的播放频道。如果启用并且有播放频道，当打开包含频道列表的窗口或对话框时将选择播放频道。如果禁用，打开包含频道列表的窗口时，将选择之前在窗口或对话框中选择的频道。"
 
 #. Description of setting with label #14110 "Long date format"
 #: system/settings/settings.xml
@@ -20936,7 +21009,8 @@ msgctxt "#36415"
 msgid "No info available yet."
 msgstr "无可用信息。"
 
-# empty strings from id 36416 to 36417
+#empty strings from id 36416 to 36417
+
 #. Description of setting with label #295 "Low latency mode"
 #: system/settings/settings.xml
 msgctxt "#36418"
@@ -21076,7 +21150,8 @@ msgctxt "#36440"
 msgid "Enable hardware video decode using Amlogic decoder."
 msgstr "使用晶晨（Amlogic）解码器启用硬件视频解码。"
 
-# empty strings from id 36440 to 36441
+#empty strings from id 36440 to 36441
+
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 #: system/settings/settings.xml
 msgctxt "#36442"
@@ -21101,7 +21176,8 @@ msgctxt "#36445"
 msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
 msgstr "选择此选项可允许使用双倍刷新率（在 59.94 Hz显示器上播放 29.97 FPS 视频或在 60 Hz 显示器上播放30 FPS 视频）。如果您的显示器没有 29.97 Hz 或 30 Hz 模式，则可能要使用此选项。"
 
-# empty strings from id 36446 to 36459
+#empty strings from id 36446 to 36459
+
 #. Description of settings with label #14112 "Enable event logging"
 #: system/settings/settings.xml
 msgctxt "#36460"
@@ -21114,8 +21190,9 @@ msgctxt "#36461"
 msgid "Notification event describe regular processes and actions performed by the system or the user."
 msgstr "通知事件描述由系统或用户指定执行的常规处理和操作。"
 
-# empty strings from id 36462 to 36499
-# end reservation
+#empty strings from id 36462 to 36499
+#end reservation
+
 #. label of a setting for the stereoscopic 3D mode of the GUI that is/should be applied
 #: system/settings/settings.xml
 msgctxt "#36500"
@@ -21128,7 +21205,8 @@ msgctxt "#36501"
 msgid "Stereoscopic 3D mode"
 msgstr "立体模式"
 
-# reserved strings for 3d modes 36502 - 36519
+#reserved strings for 3d modes 36502 - 36519
+
 #. name of a stereoscopic mode
 #: system/settings/settings.xml
 msgctxt "#36502"
@@ -21189,8 +21267,9 @@ msgctxt "#36511"
 msgid "Checkerboard"
 msgstr "棋盘"
 
-# empty strings from id 36512 to 36519
-# end of reserved strings for 3d modes
+#empty strings from id 36512 to 36519
+#end of reserved strings for 3d modes
+
 #. Name of a setting, asking the user for the default playback mode (2D, 3D, ask) of stereoscopic videos
 #: system/settings/settings.xml
 msgctxt "#36520"
@@ -21240,7 +21319,8 @@ msgctxt "#36528"
 msgid "Select stereoscopic 3D mode"
 msgstr "选择立体模式"
 
-# empty strings from id 36529 to 36530
+#empty strings from id 36529 to 36530
+
 #. option label of a setting/dialog asking for the desired stereoscopic playback mode
 #: guilib/StereoscopicsManager.cpp
 msgctxt "#36531"
@@ -21309,7 +21389,8 @@ msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
 msgstr "允许 AirPlay 客户端控制音量。"
 
-# empty strings from id 36542 to 36543
+#empty strings from id 36542 to 36543
+
 #: system/settings/settings.xml
 msgctxt "#36544"
 msgid "Enable hardware decoding of video files."
@@ -21607,7 +21688,8 @@ msgctxt "#36599"
 msgid "Video dithering output precision in bits. Use the highest setting that doesn't show banding. The default of 8 is recommended for most systems. If your GPU is set to scale the output RGB levels or you use a laptop screen, a 7 or 6 bit setting may eliminate more banding. Lower settings are available for testing purposes only to make it easy to see whether dithering is applied and that the dither noise pixel size matches the display resolution."
 msgstr "视频抖动输出精度位数。使用不显示带状纹的最高设置。大多系统建议默认为 8。如果你的 GPU 设置 RGB 输出级范围或使用笔记本电脑屏幕，7 或 6 位的设置可以消除更多的条纹。较低的设置仅用于测试目的，可以很容易地看到是否有抖动，且抖动噪点大小匹配显示分辨率。"
 
-# reserved strings 365XX
+#reserved strings 365XX
+
 #. Description of settings category with label #14022 "Library"
 #: system/settings/settings.xml
 msgctxt "#36600"
@@ -21858,7 +21940,8 @@ msgctxt "#36642"
 msgid "No orphaned add-ons to remove."
 msgstr "没有要删除的孤立插件。"
 
-# empty strings from id 36643 to 36898
+#empty strings from id 36643 to 36898
+
 #. Description of setting with label #729 "Enable SSL"
 #: system/settings/settings.xml
 msgctxt "#36899"
@@ -21975,7 +22058,8 @@ msgctxt "#36921"
 msgid "songs"
 msgstr "歌曲"
 
-# empty strings from id 36922 to 36999
+#empty strings from id 36922 to 36999
+
 #: xbmc/cores/VideoPlayer/DVDInputStreams/DVDInputStreamNavigator.cpp
 msgctxt "#37000"
 msgid "(Visually impaired)"
@@ -21991,7 +22075,8 @@ msgctxt "#37002"
 msgid "(Director's comments 2)"
 msgstr "（导演点评2）"
 
-# empty strings from id 37003 to 37013
+#empty strings from id 37003 to 37013
+
 #: xbmc/GUIInfoManager.cpp
 msgctxt "#37014"
 msgid "Last used profile"
@@ -22011,8 +22096,10 @@ msgctxt "#37016"
 msgid "Select this option if your receiver is capable of decoding Dolby Digital Plus (E-AC3) streams."
 msgstr "当你的功放能解码杜比数字+（E-AC3）音频流时选择此项。"
 
-# empty strings from id 37017 to 37020
-#: system/settings/android.xml system/settings/gbm.xml
+#empty strings from id 37017 to 37020
+
+#: system/settings/android.xml
+#: system/settings/gbm.xml
 msgctxt "#37021"
 msgid "Set GUI resolution limit"
 msgstr "设置用户界面分辨率限制"
@@ -22027,7 +22114,8 @@ msgctxt "#37023"
 msgid "Do you wish to stop playback on the remote device?"
 msgstr "要停止远程设备上的播放吗？"
 
-# empty string with id 37024
+#empty string with id 37024
+
 #: system/settings/settings.xml
 msgctxt "#37025"
 msgid "Configure audio encoder settings such as quality and compression level"
@@ -22315,7 +22403,8 @@ msgctxt "#37116"
 msgid "Adaptive"
 msgstr "自适应"
 
-# empty strings from id 37117 to 37119
+#empty strings from id 37117 to 37119
+
 #. Value of setting - Byte
 #: xbmc/settings/SevicesSettings.cpp
 msgctxt "#37120"
@@ -22340,7 +22429,8 @@ msgctxt "#37123"
 msgid "{0:d} GB"
 msgstr "{0:d} GB"
 
-# empty strings from id 37124 to 37127
+#empty strings from id 37124 to 37127
+
 #. Value of setting - second
 #: xbmc/settings/PlayerSettings.cpp
 msgctxt "#37128"
@@ -22377,7 +22467,8 @@ msgctxt "#37133"
 msgid "Limits the maximum memory usage for the video queue. The amount of memory used depends on the video bitrate and the length of the queue. If the memory limit is reached, the queue time is reduced as necessary."
 msgstr "限制视频队列的最大内存使用量。内存用量取决于视频比特率和队列长度。如果达到内存限制，队列时间会根据需要缩短。"
 
-# empty strings from id 37134 to 38010
+#empty strings from id 37134 to 38010
+
 #: system/settings/settings.xml
 msgctxt "#38007"
 msgid "Boost centre channel when downmixing"
@@ -22441,7 +22532,8 @@ msgctxt "#38018"
 msgid "My rating"
 msgstr "我的评分"
 
-# empty strings from id 38019 to 38021
+#empty strings from id 38019 to 38021
+
 #. Used for the rating selection
 #: xbmc/music/MusicUtils.cpp xbmc/video/dialogs/GUIDialogVideoInfo.cpp
 msgctxt "#38022"
@@ -22568,8 +22660,9 @@ msgctxt "#38046"
 msgid "All roles"
 msgstr "所有角色"
 
-# empty strings from id 38047 to 38059
-# strings 38047 to 38059 reserved for music library roles
+#empty strings from id 38047 to 38059
+#strings 38047 to 38059 reserved for music library roles
+
 #. Question when forced rescan of music tags needed after upgrade from previous version of Kodi
 #: xbmc/music/windows/GUIWindowMusicBase.cpp
 msgctxt "#38060"
@@ -22712,8 +22805,9 @@ msgctxt "#38083"
 msgid "Added to playlist to play next"
 msgstr "添加到播放列表中，接下来播放"
 
-# empty strings from id 38084 to 38099
-# strings 38084 to 38099 reserved for music library
+#empty strings from id 38084 to 38099
+#strings 38084 to 38099 reserved for music library
+
 #. Description of section #14200 "Player""
 #: system/settings/settings.xml
 msgctxt "#38100"
@@ -22798,12 +22892,14 @@ msgctxt "#38113"
 msgid "This category contains the advanced settings for video playback"
 msgstr "该类别包含视频播放的高级设置"
 
-# empty strings from id 38114 to 38189
+#empty strings from id 38114 to 38189
+
 msgctxt "#38190"
 msgid "Extract thumbnails from video files"
 msgstr "从视频文件中提取缩略图"
 
-# empty strings from id 38191 to 38206
+#empty strings from id 38191 to 38206
+
 #. Description of setting "Pictures -> Show EXIF picture information" with label #38207
 #: system/settings/settings.xml
 msgctxt "#38207"
@@ -22822,7 +22918,8 @@ msgctxt "#38209"
 msgid "Reset resume position"
 msgstr "重置继续播放位置"
 
-# empty strings from id 38210 to 38299
+#empty strings from id 38210 to 38299
+
 #. Dialog header for settings for how to export specific music library data
 #: xbmc/settings/dialogs/GUIDialogLibExportSettings.cpp
 msgctxt "#38300"
@@ -22903,7 +23000,8 @@ msgctxt "#38313"
 msgid "Other artists"
 msgstr "其他歌手"
 
-# empty strings from id 38314 to 38316
+#empty strings from id 38314 to 38316
+
 #. Message when trying to do a kind #38303 of export and setting #20223 is empty
 #: xbmc/settings/dialogs/GUIDialogLibExportSettings.cpp
 msgctxt "#38317"
@@ -22958,7 +23056,8 @@ msgctxt "#38325"
 msgid "Artist subfolders created in Artist Information Folder"
 msgstr "歌手信息文件夹中创建的歌手子文件夹"
 
-# empty strings from id 38326 to 38329
+#empty strings from id 38326 to 38329
+
 #. Dialog heading when editing default settings for fetching additional music information
 #: xbmc/music/dialogs/GUIDialogInfoProviderSettings.cpp
 msgctxt "#38330"
@@ -24366,6 +24465,7 @@ msgid "50th Anniversary Edition"
 msgstr "50 周年纪念版"
 
 # 40000 to 40800 are reserved for Video Versions feature
+
 #. Confirm file deletion
 #: system/settings/settings.xml
 msgctxt "#40801"
