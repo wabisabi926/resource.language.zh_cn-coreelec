@@ -23955,7 +23955,7 @@ msgstr "Starfish 是适用于 LG webOS 系统的硬件视频解码器。若需�
 #: system/settings/settings.xml
 msgctxt "#39209"
 msgid "Dolby Vision: Override level 5 metadata to zero"
-msgstr "杜比视界：将 level 5 元数据强制设为零"
+msgstr "杜比视界：将 Level 5 元数据强制覆盖为零"
 
 #. Help text for setting "Dolby Vision: Override level 5 metadata to zero" of label #39209
 #: system/settings/settings.xml
