@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-05-14 20:25+0000\n"
+"PO-Revision-Date: 2026-07-21 10:25+0000\n"
 "Last-Translator: wabisabi926 <wabisabi926@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-core/kodi-main/zh_Hans/>\n"
 "Language: zh_cn\n"
@@ -24322,7 +24322,16 @@ msgctxt "#40220"
 msgid "New extra name"
 msgstr "新的额外名称"
 
-# empty strings from id 40221 to 40399
+#empty string id 40221 freed in v22
+
+#. "Create separate versions of the same movie" setting
+#: system/settings/settings.xml
+msgctxt "#40222"
+msgid "Group the different versions of videos"
+msgstr "将影片的多个版本归类分组"
+
+#empty strings from id 40223 to 40399
+
 # Video versions
 #. Name of a video version, like "Director's Cut"
 #: xbmc/video/VideoDatabase.cpp
